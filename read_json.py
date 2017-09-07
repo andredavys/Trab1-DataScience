@@ -18,6 +18,9 @@ def getVocabulario():
 
 	return tokenDataSet
 
+def convertUnicodeToString(token):
+	token = normalize('NFKD', token).encode('ascii','ignore')
+	return token
 
 def clearVocabulario(vocabulario):
 	stopWords = nltk.corpus.stopwords.words('portuguese')
@@ -25,18 +28,27 @@ def clearVocabulario(vocabulario):
 	for token in vocabulario:
 		if(token not in stopWords):
 			token = token.lower()
+			token = convertUnicodeToString(token)
+			token = removeEspecialChar(token)
+			# print "novo token: ", len(token), token
 			token = remover_acentos(token)
 			clean_vocabulario.add(token)
 	return clean_vocabulario
 
 
+def removeEspecialChar(token):
+	char_esp = "!#&()*+-/[]\^_{}?:;`><'.,&='\""
+	formatted_token=""
+	for char in token:
+		if char not in char_esp:
+			formatted_token = formatted_token+char
+	return formatted_token
 
 if __name__ == "__main__":
-	
 	#Questao 2
 	vocabulario = getVocabulario()
 	print "Tamanho vocabulário ",len(vocabulario)
 
-	#Questão 3
+	# #Questão 
 	clean_vocabulario = clearVocabulario(vocabulario)
 	print "Tamanho vocabulário limpo ",len(clean_vocabulario)	
