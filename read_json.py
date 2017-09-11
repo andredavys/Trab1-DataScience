@@ -3,41 +3,96 @@
 import json
 import nltk
 from unicodedata import normalize
+import re
+import matplotlib.pyplot as plt
+import numpy as np
+
+#transforma as wtopwords de unicode para str
+def getStopWord():
+	stopwords = nltk.corpus.stopwords.words('portuguese')
+	strStopWords = []
+	for word in stopwords:
+		strStopWords.append(convertUnicodeToString(word))
+
+	return strStopWords
 
 def remover_acentos(txt, codif='utf-8'):
 	return normalize('NFKD', txt.decode(codif)).encode('ASCII','ignore')
 
 
 def getVocabulario():
-	with open('noticiasG1.json') as json_data:
+	with open('datasetNews.json') as json_data:
 		data = json.load(json_data)
 		tokenDataSet = set()
 		for news in data:
-			token_news = set(news['titulo'].split()+news['subtitulo'].split()+news['texto'].split())
+			#Remove espaços duplicados e transforma string em lista de palavras
+			token_news = set(re.sub(' +',' ',news['texto']).split())
 			tokenDataSet = tokenDataSet.union(token_news)
 
 	return tokenDataSet
+
+def frequencyTokensInDataset():
+	with open('datasetNews.json') as json_data:
+		data = json.load(json_data)
+		mapNews = {}
+		for news in data:
+			mapNews[news['id']] = getClearNews(news['texto'].split())
+		
+	mapFrequencyTokens = {}
+	for news in mapNews.values():
+		for tokenNews in news:
+			if tokenNews in mapFrequencyTokens:
+				mapFrequencyTokens[tokenNews]+=1
+			else:
+				mapFrequencyTokens[tokenNews]=1
+
+	#Ordena mapa pelo valor
+	mapPlot = {}
+	k=10
+	for element in sorted(mapFrequencyTokens.items(), key=lambda x: x[1])[-k:]:
+		(word, frequency) = element
+		mapPlot[word] = frequency
+
+	print mapPlot
+	#print sortMapFrequencyTokens[(size-10)][0], "->", sortMapFrequencyTokens[(size-10)][1]
+	plt.bar(range(k), mapPlot.values(), align='center')
+	plt.xticks(range(k), mapPlot.keys())
+	plt.show()
+	
 
 def convertUnicodeToString(token):
 	token = normalize('NFKD', token).encode('ascii','ignore')
 	return token
 
+def getClearNews(news):
+	stopWords = getStopWord()
+	formattedNews = []
+
+	for token in news:
+		token = token.lower()
+		token = convertUnicodeToString(token)
+		token = removeEspecialChar(token)
+		if(token not in stopWords):
+			token = remover_acentos(token)	
+			formattedNews.append(token)
+	return formattedNews
+
 def clearVocabulario(vocabulario):
-	stopWords = nltk.corpus.stopwords.words('portuguese')
+	stopWords = getStopWord()
 	clean_vocabulario = set()
 	for token in vocabulario:
+		token = token.lower()
+		token = convertUnicodeToString(token)
+		#Falar no relatório
+		token = removeEspecialChar(token)
 		if(token not in stopWords):
-			token = token.lower()
-			token = convertUnicodeToString(token)
-			token = removeEspecialChar(token)
-			# print "novo token: ", len(token), token
 			token = remover_acentos(token)
 			clean_vocabulario.add(token)
 	return clean_vocabulario
 
 
 def removeEspecialChar(token):
-	char_esp = "!#&()*+-/[]\^_{}?:;`><'.,&='\""
+	char_esp = "?()!:;.,'\""
 	formatted_token=""
 	for char in token:
 		if char not in char_esp:
@@ -49,6 +104,8 @@ if __name__ == "__main__":
 	vocabulario = getVocabulario()
 	print "Tamanho vocabulário ",len(vocabulario)
 
-	# #Questão 
-	clean_vocabulario = clearVocabulario(vocabulario)
-	print "Tamanho vocabulário limpo ",len(clean_vocabulario)	
+	#Questão 
+	cleanVocabulario = clearVocabulario(vocabulario)
+	print "Tamanho vocabulário limpo ",len(cleanVocabulario)
+
+	frequencyTokensInDataset()
