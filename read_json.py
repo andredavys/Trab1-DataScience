@@ -36,7 +36,7 @@ def frequencyTokensInDataset():
 		data = json.load(json_data)
 		mapNews = {}
 		for news in data:
-			mapNews[news['id']] = getClearNews(news['texto'].split())
+			mapNews[news['id']] = getClearNews(re.sub(' +',' ',news['texto']).split())
 		
 	mapFrequencyTokens = {}
 	for news in mapNews.values():
@@ -48,7 +48,7 @@ def frequencyTokensInDataset():
 
 	#Ordena mapa pelo valor
 	mapPlot = {}
-	k=10
+	k=100
 	for element in sorted(mapFrequencyTokens.items(), key=lambda x: x[1])[-k:]:
 		(word, frequency) = element
 		mapPlot[word] = frequency
@@ -59,6 +59,25 @@ def frequencyTokensInDataset():
 	plt.xticks(range(k), mapPlot.keys())
 	plt.show()
 	
+def sizeDocumentDistribution():
+	with open('datasetNews.json') as json_data:
+		data = json.load(json_data)
+		mapNewsTokens = {}
+		for news in data:
+			mapNewsTokens[news['id']] = len(getClearNews(re.sub(' +',' ',news['texto']).split()))
+
+	print mapNewsTokens
+	# size = len(mapNewsTokens)
+	# plt.bar(size, mapNewsTokens.values(), align='center')
+	# plt.xticks(size, mapNewsTokens.keys())
+	# plt.show()
+
+	plt.hist(mapNewsTokens.values())
+	plt.title("Gaussian Histogram")
+	plt.xlabel("Value")
+	plt.ylabel("Frequency")
+	plt.show()
+
 
 def convertUnicodeToString(token):
 	token = normalize('NFKD', token).encode('ascii','ignore')
@@ -104,8 +123,10 @@ if __name__ == "__main__":
 	vocabulario = getVocabulario()
 	print "Tamanho vocabulário ",len(vocabulario)
 
-	#Questão 
+	#Questão 3
 	cleanVocabulario = clearVocabulario(vocabulario)
 	print "Tamanho vocabulário limpo ",len(cleanVocabulario)
 
+	#Questão 4
 	frequencyTokensInDataset()
+	#sizeDocumentDistribution()
