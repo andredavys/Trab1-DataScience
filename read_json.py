@@ -53,11 +53,20 @@ def frequencyTokensInDataset():
 		(word, frequency) = element
 		mapPlot[word] = frequency
 
-	print mapPlot
+	# print mapPlot
 	#print sortMapFrequencyTokens[(size-10)][0], "->", sortMapFrequencyTokens[(size-10)][1]
+	fig, ax = plt.subplots()
 	plt.bar(range(k), mapPlot.values(), align='center')
 	plt.xticks(range(k), mapPlot.keys())
+	plt.title("Frenquência dos tokens")
+	plt.ylabel("frequency")
+
+	#Rotacionar o label x
+	for tick in ax.get_xticklabels():
+		tick.set_rotation(90)
+
 	plt.show()
+
 	
 def sizeDocumentDistribution():
 	with open('datasetNews.json') as json_data:
