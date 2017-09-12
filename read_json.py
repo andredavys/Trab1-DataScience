@@ -6,6 +6,7 @@ from unicodedata import normalize
 import re
 import matplotlib.pyplot as plt
 import numpy as np
+import codecs
 
 #transforma as wtopwords de unicode para str
 def getStopWord():
@@ -26,7 +27,7 @@ def getVocabulario():
 		tokenDataSet = set()
 		for news in data:
 			#Remove espaços duplicados e transforma string em lista de palavras
-			token_news = set(re.sub(' +',' ',news['texto']).split())
+			token_news = set(re.sub(' +',' ',news['texto'].strip()).split())
 			tokenDataSet = tokenDataSet.union(token_news)
 
 	return tokenDataSet
@@ -36,29 +37,31 @@ def frequencyTokensInDataset():
 		data = json.load(json_data)
 		mapNews = {}
 		for news in data:
-			mapNews[news['id']] = getClearNews(re.sub(' +',' ',news['texto']).split())
+			mapNews[news['id']] = getClearNews(re.sub(' +',' ',news['texto'].strip()).split())
 		
 	mapFrequencyTokens = {}
 	for news in mapNews.values():
 		for tokenNews in news:
-			if tokenNews in mapFrequencyTokens:
-				mapFrequencyTokens[tokenNews]+=1
-			else:
-				mapFrequencyTokens[tokenNews]=1
+			if(tokenNews != ""):
+				if tokenNews in mapFrequencyTokens:
+					mapFrequencyTokens[tokenNews]+=1
+				else:
+					mapFrequencyTokens[tokenNews]=1
 
 	#Ordena mapa pelo valor
 	mapPlot = {}
 	k=100
+	fileSaida = open('frequencyWords.txt','w')
 	for element in sorted(mapFrequencyTokens.items(), key=lambda x: x[1])[-k:]:
 		(word, frequency) = element
 		mapPlot[word] = frequency
+		lineFile = word+ ","+str(frequency)+"\n"
+		fileSaida.write(lineFile)
 
-	# print mapPlot
-	#print sortMapFrequencyTokens[(size-10)][0], "->", sortMapFrequencyTokens[(size-10)][1]
 	fig, ax = plt.subplots()
 	plt.bar(range(k), mapPlot.values(), align='center')
 	plt.xticks(range(k), mapPlot.keys())
-	plt.title("Frenquência dos tokens")
+	plt.title("Frenquencia dos tokens")
 	plt.ylabel("frequency")
 
 	#Rotacionar o label x
@@ -73,7 +76,7 @@ def sizeDocumentDistribution():
 		data = json.load(json_data)
 		mapNewsTokens = {}
 		for news in data:
-			mapNewsTokens[news['id']] = len(getClearNews(re.sub(' +',' ',news['texto']).split()))
+			mapNewsTokens[news['id']] = len(getClearNews(re.sub(' +',' ',news['texto'].strip()).split()))
 
 	print mapNewsTokens
 	# size = len(mapNewsTokens)
@@ -120,7 +123,7 @@ def clearVocabulario(vocabulario):
 
 
 def removeEspecialChar(token):
-	char_esp = "?()!:;.,'\""
+	char_esp = "?()!:;.-,'\""
 	formatted_token=""
 	for char in token:
 		if char not in char_esp:
