@@ -17,7 +17,7 @@ def getStopWord():
 
 	return strStopWords
 
-def remover_acentos(txt, codif='utf-8'):
+def removerAcentos(txt, codif='utf-8'):
 	return normalize('NFKD', txt.decode(codif)).encode('ASCII','ignore')
 
 
@@ -104,7 +104,7 @@ def getClearNews(news):
 		token = convertUnicodeToString(token)
 		token = removeEspecialChar(token)
 		if(token not in stopWords):
-			token = remover_acentos(token)	
+			token = removerAcentos(token)	
 			formattedNews.append(token)
 	return formattedNews
 
@@ -117,7 +117,7 @@ def clearVocabulario(vocabulario):
 		#Falar no relatório
 		token = removeEspecialChar(token)
 		if(token not in stopWords):
-			token = remover_acentos(token)
+			token = removerAcentos(token)
 			clean_vocabulario.add(token)
 	return clean_vocabulario
 
