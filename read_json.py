@@ -6,7 +6,13 @@ from unicodedata import normalize
 import re
 import matplotlib.pyplot as plt
 import numpy as np
+<<<<<<< HEAD
+import time
+import random
+import math
+=======
 import codecs
+>>>>>>> fa9ff14db4e823232a090dc1c2001426f9c03961
 
 #transforma as wtopwords de unicode para str
 def getStopWord():
@@ -58,7 +64,12 @@ def frequencyTokensInDataset():
 		lineFile = word+ ","+str(frequency)+"\n"
 		fileSaida.write(lineFile)
 
+<<<<<<< HEAD
+	#print mapPlot
+	#print sortMapFrequencyTokens[(size-10)][0], "->", sortMapFrequencyTokens[(size-10)][1]
+=======
 	fig, ax = plt.subplots()
+>>>>>>> fa9ff14db4e823232a090dc1c2001426f9c03961
 	plt.bar(range(k), mapPlot.values(), align='center')
 	plt.xticks(range(k), mapPlot.keys())
 	plt.title("Frenquencia dos tokens")
@@ -78,17 +89,83 @@ def sizeDocumentDistribution():
 		for news in data:
 			mapNewsTokens[news['id']] = len(getClearNews(re.sub(' +',' ',news['texto'].strip()).split()))
 
-	print mapNewsTokens
+	#print mapNewsTokens
 	# size = len(mapNewsTokens)
 	# plt.bar(size, mapNewsTokens.values(), align='center')
 	# plt.xticks(size, mapNewsTokens.keys())
 	# plt.show()
-
 	plt.hist(mapNewsTokens.values())
 	plt.title("Gaussian Histogram")
 	plt.xlabel("Value")
 	plt.ylabel("Frequency")
 	plt.show()
+
+def makeBagOfWords(vocabulario):
+
+	i=0
+	tokenID = {}
+	for token in vocabulario:
+		tokenID[token] = i
+		i+=1
+
+	with open('datasetNews.json') as json_data:
+		data = json.load(json_data)
+		newsInBagOfWords = {}
+
+		for news in data:
+			#gerar lista com 0's do tamanho do vocabulário
+			vector = [0] * len(vocabulario)
+			for tokenNews in getClearNews(re.sub(' +',' ',news['texto']).split()):
+				vector[ tokenID[tokenNews] ] = 1
+
+			newsInBagOfWords[news['id']] = vector
+
+	return newsInBagOfWords,tokenID
+
+def euclideanDistance2(p,q):
+	size = len(p)
+	distance = 0
+	for i in range(size):
+		distance += (p[i] - q[i])**2
+
+	return distance
+
+def distanceBetweenDocs(newsInBagOfWords,nameFile):
+	file = open(nameFile,'w')
+	sizeNews = len(newsInBagOfWords)
+	for i in range(1,sizeNews+1):
+		for j in range(i,sizeNews+1):
+			p = newsInBagOfWords[i]
+			q = newsInBagOfWords[j]
+			distance = euclideanDistance2(p,q)
+			print i,",",j," - ",distance
+			file.write(str(i)+","+str(j)+" = "+str(distance)+"\n")
+	file.close()
+
+
+def buildAchiloptasMatrix(n,d):
+	mult = math.sqrt(3/(n*1.0))
+	#Cria matriz nxd com 0's
+	achiloptasMatrix = []
+	for i in range(n):
+		achiloptasMatrix.append([0]*d)
+
+	for i in range(n):
+		for j in range(d):
+			x = random.randint(1, 6)
+			#prob 1/6
+			if(x==1):
+				achiloptasMatrix[i][j] = mult
+			#prob 2/3
+			elif(x>=2 and x<6):
+				achiloptasMatrix[i][j] = 0
+			#prob 1/6
+			elif(x==6):
+				achiloptasMatrix[i][j] = -mult
+	return achiloptasMatrix
+
+def buildGaussianMatrix(n,d):
+	gaussianMatrix = []
 
 
 def convertUnicodeToString(token):
@@ -121,6 +198,20 @@ def clearVocabulario(vocabulario):
 			clean_vocabulario.add(token)
 	return clean_vocabulario
 
+def procedureQuestion7(vocabulary):
+	d = len(vocabulary)
+
+	for n in [4, 16, 64, 256, 1024, 4096]:
+
+		#Step 1
+		begin = time.time()
+		achiloptasMatrix = buildAchiloptasMatrix(n,d)
+		timeBuildAchiloptasMatrix = time.time()-begin
+
+		#Step 2
+		begin = time.time()
+		gaussianMatrix = buildGaussianMatrix(n,d)
+		timeBuildGaussianMatrix = time.time()-begin
 
 def removeEspecialChar(token):
 	char_esp = "?()!:;.-,'\""
@@ -130,15 +221,28 @@ def removeEspecialChar(token):
 			formatted_token = formatted_token+char
 	return formatted_token
 
+
 if __name__ == "__main__":
 	#Questao 2
-	vocabulario = getVocabulario()
-	print "Tamanho vocabulário ",len(vocabulario)
+	# vocabulario = getVocabulario()
+	# print "Tamanho vocabulário ",len(vocabulario)
 
-	#Questão 3
-	cleanVocabulario = clearVocabulario(vocabulario)
-	print "Tamanho vocabulário limpo ",len(cleanVocabulario)
+	# #Questão 3
+	# cleanVocabulario = clearVocabulario(vocabulario)
+	# print "Tamanho vocabulário limpo ",len(cleanVocabulario)
 
-	#Questão 4
-	frequencyTokensInDataset()
-	#sizeDocumentDistribution()
+	# #Questão 4
+	# #frequencyTokensInDataset()
+	# #sizeDocumentDistribution()
+
+	# #Questão 5
+	# newsInBagOfWords,tokenID = makeBagOfWords(cleanVocabulario)
+
+	# #Questão 6
+	# # inicio = time.time()
+	# # distanceBetweenDocs(newsInBagOfWords,"distance_out.txt")
+	# # fim = time.time()
+	# # print "Tempo de execução para calcular distancias\n ",fim-inicio
+
+	# #Questão 7
+	
