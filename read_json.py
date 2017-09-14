@@ -156,8 +156,27 @@ def buildGaussianMatrix(n,d):
 
 	return gaussianMatrix
 
+def transposeMatrix(matrixA):
+	rows = len(matrixA)
+	cols = len(matrixA[0])
+	matrixT = [[0 for x in range(rows)] for y in range(cols)]
+	for i in range(cols):
+		for j in range(rows):
+			matrixT[i][j] = matrixA[j][i]
+	return matrixT
 
+def multMatrix(X,Y):
 
+	if(len(X[0])==len(Y)):
+		result = [ [0]*len(Y[0]) for y in range(len(X)) ]
+		for i in range(len(X)):
+			for j in range(len(Y[0])):
+				for k in range(len(Y)):
+					result[i][j] += X[i][k] * Y[k][j]
+
+		return result
+	else:
+		print "Multiplicação impossível"
 
 def convertUnicodeToString(token):
 	token = normalize('NFKD', token).encode('ascii','ignore')
@@ -189,20 +208,42 @@ def clearVocabulario(vocabulario):
 			clean_vocabulario.add(token)
 	return clean_vocabulario
 
-def procedureQuestion7(vocabulary):
+def procedureQuestion7(vocabulary,newsInBagOfWords):
 	d = len(vocabulary)
 
-	for n in [4, 16, 64, 256, 1024, 4096]:
+	for n in [4096]:# 64, 256, 1024, 4096]:
 
 		#Step 1
 		begin = time.time()
-		achiloptasMatrix = buildAchiloptasMatrix(n,d)
+		achiloptasMatrix = buildAchiloptasMatrix(d,n)
 		timeBuildAchiloptasMatrix = time.time()-begin
 
 		#Step 2
 		begin = time.time()
-		gaussianMatrix = buildGaussianMatrix(n,d)
+		gaussianMatrix = buildGaussianMatrix(d,n)
 		timeBuildGaussianMatrix = time.time()-begin
+
+
+		#Step 3
+		newsRnEspaceAchiloptas = {}
+		newsRnEspaceGaussian = {}
+		begin = time.time()
+		for idNews in newsInBagOfWords:
+			print "Mut "
+			# newsRnEspaceAchiloptas[idNews] = multMatrix([newsInBagOfWords[idNews]] ,achiloptasMatrix)[0]
+			# newsRnEspaceGaussian[idNews] = multMatrix( [ newsInBagOfWords[idNews] ], gaussianMatrix)[0]
+			newsRnEspaceAchiloptas[idNews] = np.matrix(newsInBagOfWords[idNews]).dot(np.matrix(achiloptasMatrix) )
+			newsRnEspaceGaussian[idNews] = np.matrix(newsInBagOfWords[idNews]).dot(np.matrix(gaussianMatrix) )
+			print "espaço\n"
+		timeGenerateEspaceRn = time.time()-begin
+		
+		begin = time.time()
+		distanceBetweenDocs(newsRnEspaceAchiloptas,"distance-Achiloptas-r"+str(n)+".txt")
+		timeDistanceBetweenDocsAchiloptas = time.time()-begin
+
+		begin = time.time()
+		distanceBetweenDocs(newsRnEspaceGaussian,"distance-Gaussian-r"+str(n)+".txt")
+		timeDistanceBetweenDocsGaussian = time.time()-begin
 
 def removeEspecialChar(token):
 	char_esp = "?()!:;.,'\""
@@ -215,19 +256,20 @@ def removeEspecialChar(token):
 
 if __name__ == "__main__":
 	#Questao 2
-	# vocabulario = getVocabulario()
-	# print "Tamanho vocabulário ",len(vocabulario)
 
-	# #Questão 3
-	# cleanVocabulario = clearVocabulario(vocabulario)
-	# print "Tamanho vocabulário limpo ",len(cleanVocabulario)
+	vocabulario = getVocabulario()
+	print "Tamanho vocabulário ",len(vocabulario)
+
+	#Questão 3
+	cleanVocabulario = clearVocabulario(vocabulario)
+	print "Tamanho vocabulário limpo ",len(cleanVocabulario)
 
 	# #Questão 4
 	# #frequencyTokensInDataset()
 	# #sizeDocumentDistribution()
 
-	# #Questão 5
-	# newsInBagOfWords,tokenID = makeBagOfWords(cleanVocabulario)
+	#Questão 5
+	newsInBagOfWords,tokenID = makeBagOfWords(cleanVocabulario)
 
 	# #Questão 6
 	# # inicio = time.time()
@@ -236,4 +278,16 @@ if __name__ == "__main__":
 	# # print "Tempo de execução para calcular distancias\n ",fim-inicio
 
 	# #Questão 7
-	print buildGaussianMatrix(10,2)
+	# print buildGaussianMatrix(10,2)
+	procedureQuestion7(cleanVocabulario, newsInBagOfWords)
+	# a = [[0 for x in range(3)] for y in range(2)]
+	# b = [[0 for x in range(2)] for y in range(3)]
+
+	# for i in range(2):
+	# 	for j in range(3):
+	# 		a[i][j] = random.randint(1,4)
+	# 		b[j][i] = random.randint(1,4)
+
+	# print a
+	# print b
+	# print multMatrix(a,b)
