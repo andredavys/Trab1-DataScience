@@ -6,13 +6,9 @@ from unicodedata import normalize
 import re
 import matplotlib.pyplot as plt
 import numpy as np
-<<<<<<< HEAD
 import time
 import random
 import math
-=======
-import codecs
->>>>>>> fa9ff14db4e823232a090dc1c2001426f9c03961
 
 #transforma as wtopwords de unicode para str
 def getStopWord():
@@ -33,7 +29,7 @@ def getVocabulario():
 		tokenDataSet = set()
 		for news in data:
 			#Remove espaços duplicados e transforma string em lista de palavras
-			token_news = set(re.sub(' +',' ',news['texto'].strip()).split())
+			token_news = set(re.sub(' +',' ',news['texto']).split())
 			tokenDataSet = tokenDataSet.union(token_news)
 
 	return tokenDataSet
@@ -43,51 +39,35 @@ def frequencyTokensInDataset():
 		data = json.load(json_data)
 		mapNews = {}
 		for news in data:
-			mapNews[news['id']] = getClearNews(re.sub(' +',' ',news['texto'].strip()).split())
+			mapNews[news['id']] = getClearNews(re.sub(' +',' ',news['texto']).split())
 		
 	mapFrequencyTokens = {}
 	for news in mapNews.values():
 		for tokenNews in news:
-			if(tokenNews != ""):
-				if tokenNews in mapFrequencyTokens:
-					mapFrequencyTokens[tokenNews]+=1
-				else:
-					mapFrequencyTokens[tokenNews]=1
+			if tokenNews in mapFrequencyTokens:
+				mapFrequencyTokens[tokenNews]+=1
+			else:
+				mapFrequencyTokens[tokenNews]=1
 
 	#Ordena mapa pelo valor
 	mapPlot = {}
 	k=100
-	fileSaida = open('frequencyWords.txt','w')
 	for element in sorted(mapFrequencyTokens.items(), key=lambda x: x[1])[-k:]:
 		(word, frequency) = element
 		mapPlot[word] = frequency
-		lineFile = word+ ","+str(frequency)+"\n"
-		fileSaida.write(lineFile)
 
-<<<<<<< HEAD
 	#print mapPlot
 	#print sortMapFrequencyTokens[(size-10)][0], "->", sortMapFrequencyTokens[(size-10)][1]
-=======
-	fig, ax = plt.subplots()
->>>>>>> fa9ff14db4e823232a090dc1c2001426f9c03961
 	plt.bar(range(k), mapPlot.values(), align='center')
 	plt.xticks(range(k), mapPlot.keys())
-	plt.title("Frenquencia dos tokens")
-	plt.ylabel("frequency")
-
-	#Rotacionar o label x
-	for tick in ax.get_xticklabels():
-		tick.set_rotation(90)
-
 	plt.show()
-
 	
 def sizeDocumentDistribution():
 	with open('datasetNews.json') as json_data:
 		data = json.load(json_data)
 		mapNewsTokens = {}
 		for news in data:
-			mapNewsTokens[news['id']] = len(getClearNews(re.sub(' +',' ',news['texto'].strip()).split()))
+			mapNewsTokens[news['id']] = len(getClearNews(re.sub(' +',' ',news['texto']).split()))
 
 	#print mapNewsTokens
 	# size = len(mapNewsTokens)
@@ -214,7 +194,7 @@ def procedureQuestion7(vocabulary):
 		timeBuildGaussianMatrix = time.time()-begin
 
 def removeEspecialChar(token):
-	char_esp = "?()!:;.-,'\""
+	char_esp = "?()!:;.,'\""
 	formatted_token=""
 	for char in token:
 		if char not in char_esp:
@@ -234,6 +214,7 @@ if __name__ == "__main__":
 	# #Questão 4
 	# #frequencyTokensInDataset()
 	# #sizeDocumentDistribution()
+	print 'hello'
 
 	# #Questão 5
 	# newsInBagOfWords,tokenID = makeBagOfWords(cleanVocabulario)
@@ -245,4 +226,3 @@ if __name__ == "__main__":
 	# # print "Tempo de execução para calcular distancias\n ",fim-inicio
 
 	# #Questão 7
-	
