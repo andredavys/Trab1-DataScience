@@ -146,6 +146,17 @@ def buildAchiloptasMatrix(n,d):
 
 def buildGaussianMatrix(n,d):
 	gaussianMatrix = []
+	for i in range(n):
+		gaussianMatrix.append([0]*d)
+
+	for i in range(n):
+		for j in range(d):
+			gaussianMatrix[i][j] = random.uniform( 0,1/(n*1.0) )
+
+
+	return gaussianMatrix
+
+
 
 
 def convertUnicodeToString(token):
@@ -214,7 +225,6 @@ if __name__ == "__main__":
 	# #Questão 4
 	# #frequencyTokensInDataset()
 	# #sizeDocumentDistribution()
-	print 'hello'
 
 	# #Questão 5
 	# newsInBagOfWords,tokenID = makeBagOfWords(cleanVocabulario)
@@ -226,3 +236,4 @@ if __name__ == "__main__":
 	# # print "Tempo de execução para calcular distancias\n ",fim-inicio
 
 	# #Questão 7
+	print buildGaussianMatrix(10,2)
