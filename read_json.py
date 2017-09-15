@@ -178,6 +178,24 @@ def multMatrix(X,Y):
 	else:
 		print "Multiplicação impossível"
 
+def calculateDistortion(fileData, fileProjected, fileOut):
+	fileData = open(fileData, 'r')
+	fileProjected = open(fileProjected, 'r')
+	listRealData = fileData.readlines()
+	listProjected = fileProjected.readlines()
+	fileDistortion = open(fileOut, 'w')
+	for i in range(len(listRealData)):
+		realDistance = float(listRealData[i].split()[2])
+		projectedDistance = float(listProjected[i].split()[2])
+		distortion = 0
+		if realDistance != 0:
+			distortion = (projectedDistance - realDistance) / realDistance
+		fileDistortion.write(listRealData[i].split(",")[0]+ ","+listRealData[i].split(",")[1]+" = "+ str(distortion))
+
+	fileData.close()
+	fileProjected.close()
+	fileDistortion.close()
+
 def convertUnicodeToString(token):
 	token = normalize('NFKD', token).encode('ascii','ignore')
 	return token
