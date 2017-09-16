@@ -9,6 +9,7 @@ import numpy as np
 import time
 import random
 import math
+import os
 
 #transforma as wtopwords de unicode para str
 def getStopWord():
@@ -115,11 +116,10 @@ def distanceBetweenDocs(newsInBagOfWords,nameFile):
 	sizeNews = len(newsInBagOfWords)
 	for i in range(1,sizeNews+1):
 		for j in range(i,sizeNews+1):
-			if i!=j 
+			if i!=j:
 				p = newsInBagOfWords[i]
 				q = newsInBagOfWords[j]
 				distance = euclideanDistance2(p,q)
-				print i,",",j," - ",distance
 				file.write(str(i)+","+str(j)+" = "+str(distance)+"\n")
 	file.close()
 
@@ -233,42 +233,76 @@ def clearVocabulario(vocabulario):
 			clean_vocabulario.add(token)
 	return clean_vocabulario
 
+def createDirectory(directory):
+	if not os.path.exists(directory):
+		os.makedirs(directory)
+
 def procedureQuestion7(vocabulary,newsInBagOfWords):
 	d = len(vocabulary)
 
-	for n in [4096]:# 64, 256, 1024, 4096]:
+	for n in [4,16]:#,64, 256, 1024, 4096]:
+		createDirectory("Dimensao"+str(n))
+		fileTimeBuildMatrixAchiloptas = open("Dimensao"+str(n)+"/fileTimeBuildMatrixAchiloptas.txt","w")
+		fileTimeBuildMatrixGaussian = open("Dimensao"+str(n)+"/fileTimeBuildMatrixGaussian.txt","w")
 
-		#Step 1
-		begin = time.time()
-		achiloptasMatrix = buildAchiloptasMatrix(d,n)
-		timeBuildAchiloptasMatrix = time.time()-begin
+		fileTimeBuildSpaceAchiloptas = open("Dimensao"+str(n)+"/fileTimeBuildSpaceAchiloptas.txt","w")
+		fileTimeBuildSpaceGaussian = open("Dimensao"+str(n)+"/fileTimeBuildSpaceGaussian.txt","w")
 
-		#Step 2
-		begin = time.time()
-		gaussianMatrix = buildGaussianMatrix(d,n)
-		timeBuildGaussianMatrix = time.time()-begin
+		fileTimeCalcDistanceAchiloptas = open("Dimensao"+str(n)+"/fileTimeCalcDistanceAchiloptas.txt","w")
+		fileTimeCalcDistanceGaussian = open("Dimensao"+str(n)+"/fileTimeCalcDistanceGaussian.txt","w")
+
+		for i in range(1,3):
+			print "n: ",n," it: ", i
+			#Step 1
+			begin = time.time()
+			achiloptasMatrix = buildAchiloptasMatrix(d,n)
+			timeBuildAchiloptasMatrix = time.time()-begin
+			fileTimeBuildSpaceAchiloptas.write("it: "+str(i)+" "+str(timeBuildAchiloptasMatrix)+"\n")
 
 
-		#Step 3
-		newsRnEspaceAchiloptas = {}
-		newsRnEspaceGaussian = {}
-		begin = time.time()
-		for idNews in newsInBagOfWords:
-			print "Mut "
-			# newsRnEspaceAchiloptas[idNews] = multMatrix([newsInBagOfWords[idNews]] ,achiloptasMatrix)[0]
-			# newsRnEspaceGaussian[idNews] = multMatrix( [ newsInBagOfWords[idNews] ], gaussianMatrix)[0]
-			newsRnEspaceAchiloptas[idNews] = np.matrix(newsInBagOfWords[idNews]).dot(np.matrix(achiloptasMatrix) )
-			newsRnEspaceGaussian[idNews] = np.matrix(newsInBagOfWords[idNews]).dot(np.matrix(gaussianMatrix) )
-			print "espaço\n"
-		timeGenerateEspaceRn = time.time()-begin
-		
-		begin = time.time()
-		distanceBetweenDocs(newsRnEspaceAchiloptas,"distance-Achiloptas-r"+str(n)+".txt")
-		timeDistanceBetweenDocsAchiloptas = time.time()-begin
+			#Step 2
+			begin = time.time()
+			gaussianMatrix = buildGaussianMatrix(d,n)
+			timeBuildGaussianMatrix = time.time()-begin
+			fileTimeBuildSpaceGaussian.write("it: "+str(i)+" "+str(timeBuildGaussianMatrix)+"\n")
 
-		begin = time.time()
-		distanceBetweenDocs(newsRnEspaceGaussian,"distance-Gaussian-r"+str(n)+".txt")
-		timeDistanceBetweenDocsGaussian = time.time()-begin
+			#Step 3
+			newsRnEspaceAchiloptas = {}
+			begin = time.time()
+			for idNews in newsInBagOfWords:
+				newsRnEspaceAchiloptas[idNews] = multMatrix([newsInBagOfWords[idNews]] ,achiloptasMatrix)[0]
+				#newsRnEspaceAchiloptas[idNews] = np.matrix(newsInBagOfWords[idNews]).dot(np.matrix(achiloptasMatrix) )
+			timeGenerateEspaceRn = time.time()-begin
+			fileTimeBuildSpaceAchiloptas.write("it: "+str(i)+" "+str(timeGenerateEspaceRn)+"\n")
+
+			#Step 3
+			newsRnEspaceGaussian = {}
+			begin = time.time()
+			for idNews in newsInBagOfWords:
+				newsRnEspaceGaussian[idNews] = multMatrix( [ newsInBagOfWords[idNews] ], gaussianMatrix)[0]
+				#newsRnEspaceGaussian[idNews] = np.matrix(newsInBagOfWords[idNews]).dot(np.matrix(gaussianMatrix) )
+			timeGenerateEspaceRn = time.time()-begin
+			fileTimeBuildSpaceGaussian.write("it: "+str(i)+" "+str(timeGenerateEspaceRn)+"\n")
+
+			
+			begin = time.time()
+			distanceBetweenDocs(newsRnEspaceAchiloptas,"Dimensao"+str(n)+"/distance-Achiloptas-it"+str(i)+".txt")
+			timeDistanceBetweenDocsAchiloptas = time.time()-begin
+			fileTimeCalcDistanceAchiloptas.write("it: "+str(i)+" "+str(timeDistanceBetweenDocsAchiloptas)+"\n")
+
+			begin = time.time()
+			distanceBetweenDocs(newsRnEspaceGaussian,"Dimensao"+str(n)+"/distance-Gaussian-it"+str(i)+".txt")
+			timeDistanceBetweenDocsGaussian = time.time()-begin
+			fileTimeCalcDistanceGaussian.write("it: "+str(i)+" "+str(timeDistanceBetweenDocsGaussian)+"\n")
+
+		#Fechar arquivos de log
+		fileTimeBuildMatrixAchiloptas.close()
+		fileTimeBuildMatrixGaussian.close()
+		fileTimeBuildSpaceAchiloptas.close()
+		fileTimeBuildSpaceGaussian.close()
+		fileTimeCalcDistanceAchiloptas.close()
+		fileTimeCalcDistanceGaussian.close()
+
 
 def removeEspecialChar(token):
 	char_esp = "!#%&()*+-/[]\^_{}?:;`><123567890'.,&='\""
@@ -282,19 +316,19 @@ def removeEspecialChar(token):
 if __name__ == "__main__":
 	#Questao 2
 
-	# vocabulario = getVocabulario()
-	# print "Tamanho vocabulário ",len(vocabulario)
+	vocabulario = getVocabulario()
+	print "Tamanho vocabulário ",len(vocabulario)
 
 	# #Questão 3
-	# cleanVocabulario = clearVocabulario(vocabulario)
-	# print "Tamanho vocabulário limpo ",len(cleanVocabulario)
+	cleanVocabulario = clearVocabulario(vocabulario)
+	print "Tamanho vocabulário limpo ",len(cleanVocabulario)
 
 	# # #Questão 4
 	# # #frequencyTokensInDataset()
 	# # #sizeDocumentDistribution()
 
 	# #Questão 5
-	# newsInBagOfWords,tokenID = makeBagOfWords(cleanVocabulario)
+	newsInBagOfWords,tokenID = makeBagOfWords(cleanVocabulario)
 
 	# #Questão 6
 	# # inicio = time.time()
@@ -303,16 +337,15 @@ if __name__ == "__main__":
 	# # print "Tempo de execução para calcular distancias\n ",fim-inicio
 
 	# #Questão 7
-	# print buildGaussianMatrix(10,2)
-	# procedureQuestion7(cleanVocabulario, newsInBagOfWords)
-	# a = [[0 for x in range(3)] for y in range(2)]
-	# b = [[0 for x in range(2)] for y in range(3)]
+	
+	procedureQuestion7(cleanVocabulario, newsInBagOfWords)
+
 
 	# for i in range(2):
 	# 	for j in range(3):
 	# 		a[i][j] = random.randint(1,4)
 	# 		b[j][i] = random.randint(1,4)
-	print distortionByLemmaJL(2000,0.001,3000)
+	#print distortionByLemmaJL(2000,0.001,3000)
 
 	# print a
 	# print b
