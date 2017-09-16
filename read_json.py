@@ -28,6 +28,7 @@ def getVocabulario():
 	with open('datasetNews.json') as json_data:
 		data = json.load(json_data)
 		tokenDataSet = set()
+		print len(data), " noticias"
 		for news in data:
 			#Remove espaços duplicados e transforma string em lista de palavras
 			token_news = set(re.sub(' +',' ',news['texto']).split())
@@ -177,7 +178,7 @@ def multMatrix(X,Y):
 
 		return result
 	else:
-		print ("Multiplicação impossível")
+		print "Multiplicação impossível"
 
 #VERIFICAR SE É CORRETO FAZER ISTO
 #calcula a diferença das distâncias euclidianas entre cada par de documentos
@@ -240,7 +241,7 @@ def createDirectory(directory):
 def procedureQuestion7(vocabulary,newsInBagOfWords):
 	d = len(vocabulary)
 
-	for n in [4,16]:#,64, 256, 1024, 4096]:
+	for n in [4]:#,64, 256, 1024, 4096]:
 		createDirectory("Dimensao"+str(n))
 		fileTimeBuildMatrixAchiloptas = open("Dimensao"+str(n)+"/fileTimeBuildMatrixAchiloptas.txt","w")
 		fileTimeBuildMatrixGaussian = open("Dimensao"+str(n)+"/fileTimeBuildMatrixGaussian.txt","w")
@@ -251,20 +252,20 @@ def procedureQuestion7(vocabulary,newsInBagOfWords):
 		fileTimeCalcDistanceAchiloptas = open("Dimensao"+str(n)+"/fileTimeCalcDistanceAchiloptas.txt","w")
 		fileTimeCalcDistanceGaussian = open("Dimensao"+str(n)+"/fileTimeCalcDistanceGaussian.txt","w")
 
-		for i in range(1,3):
-			print ("n: ",n," it: ", i)
+		for i in range(1,2):
+			print "n: ",n," it: ", i
 			#Step 1
 			begin = time.time()
 			achiloptasMatrix = buildAchiloptasMatrix(d,n)
 			timeBuildAchiloptasMatrix = time.time()-begin
-			fileTimeBuildSpaceAchiloptas.write("it: "+str(i)+" "+str(timeBuildAchiloptasMatrix)+"\n")
+			fileTimeBuildMatrixAchiloptas.write("it: "+str(i)+" "+str(timeBuildAchiloptasMatrix)+"\n")
 
 
 			#Step 2
 			begin = time.time()
 			gaussianMatrix = buildGaussianMatrix(d,n)
 			timeBuildGaussianMatrix = time.time()-begin
-			fileTimeBuildSpaceGaussian.write("it: "+str(i)+" "+str(timeBuildGaussianMatrix)+"\n")
+			fileTimeBuildMatrixGaussian.write("it: "+str(i)+" "+str(timeBuildGaussianMatrix)+"\n")
 
 			#Step 3
 			newsRnEspaceAchiloptas = {}
@@ -317,11 +318,11 @@ if __name__ == "__main__":
 	#Questao 2
 
 	vocabulario = getVocabulario()
-	print ("Tamanho vocabulário ",len(vocabulario))
+	print "Tamanho vocabulário ",len(vocabulario)
 
 	# #Questão 3
 	cleanVocabulario = clearVocabulario(vocabulario)
-	print ("Tamanho vocabulário limpo ",len(cleanVocabulario))
+	print "Tamanho vocabulário limpo ",len(cleanVocabulario)
 
 	# # #Questão 4
 	# # #frequencyTokensInDataset()
