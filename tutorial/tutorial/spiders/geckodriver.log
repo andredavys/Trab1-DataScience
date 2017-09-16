@@ -1614,3 +1614,1145 @@ JavaScript error: http://vitrines.globo.com/vitrine/vitrine.min.js, line 2: Synt
 1504813499339	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147484414"
 1504813499380	Marionette	DEBUG	Received DOM event "pagehide" for "http://g1.globo.com/"
 1504813499396	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567507514	geckodriver	INFO	geckodriver 0.18.0
+1505567507573	geckodriver	INFO	Listening on 127.0.0.1:39179
+1505567508874	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1505567509280	addons.manager	DEBUG	Application has been upgraded
+1505567509340	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/XPIProvider.jsm: ["XPIProvider", "XPIInternal"]
+1505567509346	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/LightweightThemeManager.jsm: ["LightweightThemeManager"]
+1505567509398	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/GMPProvider.jsm
+1505567509403	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/PluginProvider.jsm
+1505567509405	addons.manager	DEBUG	Starting provider: XPIProvider
+1505567509406	addons.xpi	DEBUG	startup
+1505567509407	addons.xpi	INFO	SystemAddonInstallLocation directory is missing
+1505567509407	addons.xpi	INFO	Removing all system add-on upgrades.
+1505567509409	addons.xpi	DEBUG	checkForChanges
+1505567509410	addons.xpi	DEBUG	Loaded add-on state: ${}
+1505567509412	addons.xpi	INFO	Mapping firefox@getpocket.com to /usr/lib/firefox/browser/features/firefox@getpocket.com.xpi
+1505567509413	addons.xpi	INFO	Mapping aushelper@mozilla.org to /usr/lib/firefox/browser/features/aushelper@mozilla.org.xpi
+1505567509413	addons.xpi	INFO	Mapping followonsearch@mozilla.com to /usr/lib/firefox/browser/features/followonsearch@mozilla.com.xpi
+1505567509413	addons.xpi	INFO	Mapping clicktoplay-rollout@mozilla.org to /usr/lib/firefox/browser/features/clicktoplay-rollout@mozilla.org.xpi
+1505567509413	addons.xpi	INFO	Mapping webcompat@mozilla.org to /usr/lib/firefox/browser/features/webcompat@mozilla.org.xpi
+1505567509414	addons.xpi	INFO	Mapping shield-recipe-client@mozilla.org to /usr/lib/firefox/browser/features/shield-recipe-client@mozilla.org.xpi
+1505567509414	addons.xpi	INFO	Mapping screenshots@mozilla.org to /usr/lib/firefox/browser/features/screenshots@mozilla.org.xpi
+1505567509414	addons.xpi	INFO	Mapping e10srollout@mozilla.org to /usr/lib/firefox/browser/features/e10srollout@mozilla.org.xpi
+1505567509415	addons.xpi	DEBUG	New add-on firefox@getpocket.com in app-system-defaults
+1505567509416	addons.xpi	INFO	Mapping firefox@getpocket.com to /usr/lib/firefox/browser/features/firefox@getpocket.com.xpi
+1505567509417	addons.xpi	DEBUG	New add-on aushelper@mozilla.org in app-system-defaults
+1505567509418	addons.xpi	INFO	Mapping aushelper@mozilla.org to /usr/lib/firefox/browser/features/aushelper@mozilla.org.xpi
+1505567509419	addons.xpi	DEBUG	New add-on followonsearch@mozilla.com in app-system-defaults
+1505567509420	addons.xpi	INFO	Mapping followonsearch@mozilla.com to /usr/lib/firefox/browser/features/followonsearch@mozilla.com.xpi
+1505567509420	addons.xpi	DEBUG	New add-on clicktoplay-rollout@mozilla.org in app-system-defaults
+1505567509421	addons.xpi	INFO	Mapping clicktoplay-rollout@mozilla.org to /usr/lib/firefox/browser/features/clicktoplay-rollout@mozilla.org.xpi
+1505567509421	addons.xpi	DEBUG	New add-on webcompat@mozilla.org in app-system-defaults
+1505567509421	addons.xpi	INFO	Mapping webcompat@mozilla.org to /usr/lib/firefox/browser/features/webcompat@mozilla.org.xpi
+1505567509422	addons.xpi	DEBUG	New add-on shield-recipe-client@mozilla.org in app-system-defaults
+1505567509423	addons.xpi	INFO	Mapping shield-recipe-client@mozilla.org to /usr/lib/firefox/browser/features/shield-recipe-client@mozilla.org.xpi
+1505567509423	addons.xpi	DEBUG	New add-on screenshots@mozilla.org in app-system-defaults
+1505567509423	addons.xpi	INFO	Mapping screenshots@mozilla.org to /usr/lib/firefox/browser/features/screenshots@mozilla.org.xpi
+1505567509424	addons.xpi	DEBUG	New add-on e10srollout@mozilla.org in app-system-defaults
+1505567509424	addons.xpi	INFO	Mapping e10srollout@mozilla.org to /usr/lib/firefox/browser/features/e10srollout@mozilla.org.xpi
+1505567509425	addons.xpi	INFO	Mapping langpack-en-GB@firefox.mozilla.org to /usr/lib/firefox/browser/extensions/langpack-en-GB@firefox.mozilla.org.xpi
+1505567509425	addons.xpi	INFO	Mapping langpack-pt-BR@firefox.mozilla.org to /usr/lib/firefox/browser/extensions/langpack-pt-BR@firefox.mozilla.org.xpi
+1505567509426	addons.xpi	INFO	Mapping langpack-en-ZA@firefox.mozilla.org to /usr/lib/firefox/browser/extensions/langpack-en-ZA@firefox.mozilla.org.xpi
+1505567509426	addons.xpi	INFO	Mapping langpack-pt-PT@firefox.mozilla.org to /usr/lib/firefox/browser/extensions/langpack-pt-PT@firefox.mozilla.org.xpi
+1505567509426	addons.xpi	INFO	Mapping {972ce4c6-7e08-4474-a285-3208198ce6fd} to /usr/lib/firefox/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi
+1505567509426	addons.xpi	DEBUG	New add-on langpack-en-GB@firefox.mozilla.org in app-global
+1505567509427	addons.xpi	INFO	Mapping langpack-en-GB@firefox.mozilla.org to /usr/lib/firefox/browser/extensions/langpack-en-GB@firefox.mozilla.org.xpi
+1505567509427	addons.xpi	DEBUG	New add-on langpack-pt-BR@firefox.mozilla.org in app-global
+1505567509427	addons.xpi	INFO	Mapping langpack-pt-BR@firefox.mozilla.org to /usr/lib/firefox/browser/extensions/langpack-pt-BR@firefox.mozilla.org.xpi
+1505567509428	addons.xpi	DEBUG	New add-on langpack-en-ZA@firefox.mozilla.org in app-global
+1505567509428	addons.xpi	INFO	Mapping langpack-en-ZA@firefox.mozilla.org to /usr/lib/firefox/browser/extensions/langpack-en-ZA@firefox.mozilla.org.xpi
+1505567509429	addons.xpi	DEBUG	New add-on langpack-pt-PT@firefox.mozilla.org in app-global
+1505567509429	addons.xpi	INFO	Mapping langpack-pt-PT@firefox.mozilla.org to /usr/lib/firefox/browser/extensions/langpack-pt-PT@firefox.mozilla.org.xpi
+1505567509429	addons.xpi	DEBUG	New add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} in app-global
+1505567509430	addons.xpi	INFO	Mapping {972ce4c6-7e08-4474-a285-3208198ce6fd} to /usr/lib/firefox/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi
+1505567509430	addons.xpi	DEBUG	getInstallState changed: true, state: {}
+1505567509431	addons.xpi	INFO	SystemAddonInstallLocation directory is missing
+1505567509443	addons.xpi-utils	DEBUG	Opening XPI database /tmp/rust_mozprofile.WvEj9BX744uq/extensions.json
+1505567509446	addons.xpi-utils	DEBUG	New add-on firefox@getpocket.com installed in app-system-defaults
+*** Blocklist::_loadBlocklistFromFile: blocklist is disabled
+1505567509487	DeferredSave.extensions.json	DEBUG	Save changes
+1505567509490	addons.xpi-utils	DEBUG	New add-on aushelper@mozilla.org installed in app-system-defaults
+1505567509495	DeferredSave.extensions.json	DEBUG	Starting timer
+1505567509498	DeferredSave.extensions.json	DEBUG	Save changes
+1505567509498	addons.xpi-utils	DEBUG	New add-on followonsearch@mozilla.com installed in app-system-defaults
+1505567509516	DeferredSave.extensions.json	DEBUG	Save changes
+1505567509516	addons.xpi-utils	DEBUG	New add-on clicktoplay-rollout@mozilla.org installed in app-system-defaults
+1505567509522	DeferredSave.extensions.json	DEBUG	Save changes
+1505567509522	addons.xpi-utils	DEBUG	New add-on webcompat@mozilla.org installed in app-system-defaults
+1505567509526	DeferredSave.extensions.json	DEBUG	Save changes
+1505567509527	addons.xpi-utils	DEBUG	New add-on shield-recipe-client@mozilla.org installed in app-system-defaults
+1505567509553	DeferredSave.extensions.json	DEBUG	Save changes
+1505567509553	addons.xpi-utils	DEBUG	New add-on screenshots@mozilla.org installed in app-system-defaults
+1505567509561	DeferredSave.extensions.json	DEBUG	Save changes
+1505567509561	addons.xpi-utils	DEBUG	New add-on e10srollout@mozilla.org installed in app-system-defaults
+1505567509580	DeferredSave.extensions.json	DEBUG	Save changes
+1505567509581	addons.xpi-utils	DEBUG	New add-on langpack-en-GB@firefox.mozilla.org installed in app-global
+1505567509593	DeferredSave.extensions.json	DEBUG	Save changes
+1505567509593	addons.xpi-utils	DEBUG	New add-on langpack-pt-BR@firefox.mozilla.org installed in app-global
+1505567509604	DeferredSave.extensions.json	DEBUG	Save changes
+1505567509604	addons.xpi-utils	DEBUG	New add-on langpack-en-ZA@firefox.mozilla.org installed in app-global
+1505567509620	DeferredSave.extensions.json	DEBUG	Starting write
+1505567509631	DeferredSave.extensions.json	DEBUG	Save changes
+1505567509631	DeferredSave.extensions.json	DEBUG	Data changed while write in progress
+1505567509631	addons.xpi-utils	DEBUG	New add-on langpack-pt-PT@firefox.mozilla.org installed in app-global
+1505567509642	DeferredSave.extensions.json	DEBUG	Save changes
+1505567509643	addons.xpi-utils	DEBUG	New add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} installed in app-global
+1505567509648	DeferredSave.extensions.json	DEBUG	Save changes
+1505567509649	addons.manager	DEBUG	Registering startup change 'installed' for firefox@getpocket.com
+1505567509664	addons.xpi	DEBUG	Loading bootstrap scope from /usr/lib/firefox/browser/features/firefox@getpocket.com.xpi
+1505567509686	addons.xpi	DEBUG	Calling bootstrap method install on firefox@getpocket.com version 1.0.5
+1505567509686	addons.xpi-utils	DEBUG	Make addon app-system-defaults:firefox@getpocket.com visible
+1505567509687	addons.xpi	DEBUG	Updating XPIState for {"id":"firefox@getpocket.com","syncGUID":"{a5831233-5ae5-4ef5-996a-5f142bb0fbdb}","location":"app-system-defaults","version":"1.0.5","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Pocket","description":"When you find something you want to view later, put it in Pocket.","creator":null,"homepageURL":null},"visible":true,"active":false,"userDisabled":false,"appDisabled":false,"installDate":1502927313000,"updateDate":1502927313000,"applyBackgroundUpdates":1,"bootstrap":true,"path":"/usr/lib/firefox/browser/features/firefox@getpocket.com.xpi","skinnable":false,"size":855802,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"55.0.2","maxVersion":"55.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null}
+1505567509692	DeferredSave.extensions.json	DEBUG	Save changes
+1505567509692	addons.manager	DEBUG	Registering startup change 'installed' for aushelper@mozilla.org
+1505567509694	addons.xpi	DEBUG	Loading bootstrap scope from /usr/lib/firefox/browser/features/aushelper@mozilla.org.xpi
+1505567509697	addons.xpi	DEBUG	Calling bootstrap method install on aushelper@mozilla.org version 2.0
+1505567509697	addons.xpi-utils	DEBUG	Make addon app-system-defaults:aushelper@mozilla.org visible
+1505567509698	addons.xpi	DEBUG	Updating XPIState for {"id":"aushelper@mozilla.org","syncGUID":"{7d2028c2-09d1-4be9-a95b-8df6472d0180}","location":"app-system-defaults","version":"2.0","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Application Update Service Helper","description":"Sets value(s) in the update url based on custom checks.","creator":null,"homepageURL":null},"visible":true,"active":false,"userDisabled":false,"appDisabled":false,"installDate":1502927313000,"updateDate":1502927313000,"applyBackgroundUpdates":1,"bootstrap":true,"path":"/usr/lib/firefox/browser/features/aushelper@mozilla.org.xpi","skinnable":false,"size":8488,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"55.0.2","maxVersion":"55.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null}
+1505567509699	DeferredSave.extensions.json	DEBUG	Save changes
+1505567509699	addons.manager	DEBUG	Registering startup change 'installed' for followonsearch@mozilla.com
+1505567509700	addons.xpi	DEBUG	Loading bootstrap scope from /usr/lib/firefox/browser/features/followonsearch@mozilla.com.xpi
+1505567509703	addons.xpi	DEBUG	Calling bootstrap method install on followonsearch@mozilla.com version 0.9.1
+1505567509703	addons.xpi-utils	DEBUG	Make addon app-system-defaults:followonsearch@mozilla.com visible
+1505567509704	addons.xpi	DEBUG	Updating XPIState for {"id":"followonsearch@mozilla.com","syncGUID":"{0026b91b-c665-432a-9b6f-17fd6f43fb6d}","location":"app-system-defaults","version":"0.9.1","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Follow-on Search Telemetry","description":null,"creator":null,"homepageURL":null},"visible":true,"active":false,"userDisabled":false,"appDisabled":false,"installDate":1502927313000,"updateDate":1502927313000,"applyBackgroundUpdates":1,"bootstrap":true,"path":"/usr/lib/firefox/browser/features/followonsearch@mozilla.com.xpi","skinnable":false,"size":16730,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"52.0","maxVersion":"59.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null}
+1505567509704	DeferredSave.extensions.json	DEBUG	Save changes
+1505567509705	addons.manager	DEBUG	Registering startup change 'installed' for clicktoplay-rollout@mozilla.org
+1505567509706	addons.xpi	DEBUG	Loading bootstrap scope from /usr/lib/firefox/browser/features/clicktoplay-rollout@mozilla.org.xpi
+1505567509724	addons.xpi	DEBUG	Calling bootstrap method install on clicktoplay-rollout@mozilla.org version 1.2
+1505567509725	addons.xpi-utils	DEBUG	Make addon app-system-defaults:clicktoplay-rollout@mozilla.org visible
+1505567509725	addons.xpi	DEBUG	Updating XPIState for {"id":"clicktoplay-rollout@mozilla.org","syncGUID":"{a287c30c-e711-4f84-b569-3fa93dd167db}","location":"app-system-defaults","version":"1.2","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Click-to-Play staged rollout","description":"Staged rollout for Click-to-Play Flash.","creator":null,"homepageURL":null},"visible":true,"active":false,"userDisabled":false,"appDisabled":false,"installDate":1502927313000,"updateDate":1502927313000,"applyBackgroundUpdates":1,"bootstrap":true,"path":"/usr/lib/firefox/browser/features/clicktoplay-rollout@mozilla.org.xpi","skinnable":false,"size":5621,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"55.0.2","maxVersion":"55.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null}
+1505567509726	DeferredSave.extensions.json	DEBUG	Save changes
+1505567509726	addons.manager	DEBUG	Registering startup change 'installed' for webcompat@mozilla.org
+1505567509727	addons.xpi	DEBUG	Loading bootstrap scope from /usr/lib/firefox/browser/features/webcompat@mozilla.org.xpi
+1505567509730	addons.xpi	DEBUG	Calling bootstrap method install on webcompat@mozilla.org version 1.1
+1505567509730	addons.xpi-utils	DEBUG	Make addon app-system-defaults:webcompat@mozilla.org visible
+1505567509730	addons.xpi	DEBUG	Updating XPIState for {"id":"webcompat@mozilla.org","syncGUID":"{ee81378f-858b-4724-b069-c6384c980e2e}","location":"app-system-defaults","version":"1.1","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Web Compat","description":"Urgent post-release fixes for web compatibility.","creator":null,"homepageURL":null},"visible":true,"active":false,"userDisabled":false,"appDisabled":false,"installDate":1502927313000,"updateDate":1502927313000,"applyBackgroundUpdates":1,"bootstrap":true,"path":"/usr/lib/firefox/browser/features/webcompat@mozilla.org.xpi","skinnable":false,"size":8992,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"55.0.2","maxVersion":"55.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null}
+1505567509732	DeferredSave.extensions.json	DEBUG	Save changes
+1505567509732	addons.manager	DEBUG	Registering startup change 'installed' for shield-recipe-client@mozilla.org
+1505567509733	addons.xpi	DEBUG	Loading bootstrap scope from /usr/lib/firefox/browser/features/shield-recipe-client@mozilla.org.xpi
+1505567509736	addons.xpi	DEBUG	Calling bootstrap method install on shield-recipe-client@mozilla.org version 55.1
+1505567509736	addons.xpi-utils	DEBUG	Make addon app-system-defaults:shield-recipe-client@mozilla.org visible
+1505567509736	addons.xpi	DEBUG	Updating XPIState for {"id":"shield-recipe-client@mozilla.org","syncGUID":"{7f1e0c51-91aa-4bd4-8d46-4bb7e909a6ff}","location":"app-system-defaults","version":"55.1","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Shield Recipe Client","description":"Client to download and run recipes for SHIELD, Heartbeat, etc.","creator":null,"homepageURL":null},"visible":true,"active":false,"userDisabled":false,"appDisabled":false,"installDate":1502927313000,"updateDate":1502927313000,"applyBackgroundUpdates":1,"bootstrap":true,"path":"/usr/lib/firefox/browser/features/shield-recipe-client@mozilla.org.xpi","skinnable":false,"size":140305,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"55.0.2","maxVersion":"55.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null}
+1505567509737	DeferredSave.extensions.json	DEBUG	Save changes
+1505567509737	addons.manager	DEBUG	Registering startup change 'installed' for screenshots@mozilla.org
+1505567509738	addons.xpi	DEBUG	Loading bootstrap scope from /usr/lib/firefox/browser/features/screenshots@mozilla.org.xpi
+1505567509742	addons.xpi	DEBUG	Calling bootstrap method install on screenshots@mozilla.org version 10.10.0
+1505567509742	addons.xpi-utils	DEBUG	Make addon app-system-defaults:screenshots@mozilla.org visible
+1505567509743	addons.xpi	DEBUG	Updating XPIState for {"id":"screenshots@mozilla.org","syncGUID":"{ac5fed22-c632-4d7c-930b-194907c0bcc4}","location":"app-system-defaults","version":"10.10.0","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Firefox Screenshots","description":null,"creator":null,"homepageURL":"https://pageshot.net/"},"visible":true,"active":false,"userDisabled":false,"appDisabled":false,"installDate":1502927313000,"updateDate":1502927313000,"applyBackgroundUpdates":1,"bootstrap":true,"path":"/usr/lib/firefox/browser/features/screenshots@mozilla.org.xpi","skinnable":false,"size":651762,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"51.0a1","maxVersion":"*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null}
+1505567509743	DeferredSave.extensions.json	DEBUG	Save changes
+1505567509744	addons.manager	DEBUG	Registering startup change 'installed' for e10srollout@mozilla.org
+1505567509744	addons.xpi	DEBUG	Loading bootstrap scope from /usr/lib/firefox/browser/features/e10srollout@mozilla.org.xpi
+1505567509748	addons.xpi	DEBUG	Calling bootstrap method install on e10srollout@mozilla.org version 2.0
+1505567509752	addons.xpi-utils	DEBUG	Make addon app-system-defaults:e10srollout@mozilla.org visible
+1505567509752	addons.xpi	DEBUG	Updating XPIState for {"id":"e10srollout@mozilla.org","syncGUID":"{2349f08b-e379-4fc4-9ab6-33259290e033}","location":"app-system-defaults","version":"2.0","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Multi-process staged rollout","description":"Staged rollout of Firefox multi-process feature.","creator":null,"homepageURL":null},"visible":true,"active":false,"userDisabled":false,"appDisabled":false,"installDate":1502927313000,"updateDate":1502927313000,"applyBackgroundUpdates":1,"bootstrap":true,"path":"/usr/lib/firefox/browser/features/e10srollout@mozilla.org.xpi","skinnable":false,"size":13287,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"55.0.2","maxVersion":"55.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null}
+1505567509753	DeferredSave.extensions.json	DEBUG	Save changes
+1505567509753	addons.manager	DEBUG	Registering startup change 'installed' for langpack-en-GB@firefox.mozilla.org
+1505567509753	addons.manager	DEBUG	Registering startup change 'installed' for langpack-en-GB@firefox.mozilla.org
+1505567509754	addons.xpi-utils	DEBUG	Make addon app-global:langpack-en-GB@firefox.mozilla.org visible
+1505567509755	addons.xpi	DEBUG	Updating XPIState for {"id":"langpack-en-GB@firefox.mozilla.org","syncGUID":"{9e1ca123-6853-44d5-bca7-001207931112}","location":"app-global","version":"55.0.2","type":"locale","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"optionsBrowserStyle":null,"aboutURL":null,"defaultLocale":{"name":"English (GB) Language Pack","description":null,"creator":"Mark Tyndall","homepageURL":null,"contributors":["David Bartlett","Constantine Murenin","Ian Neal"]},"visible":true,"active":false,"userDisabled":false,"appDisabled":false,"installDate":1502928962000,"updateDate":1502928962000,"applyBackgroundUpdates":1,"bootstrap":true,"path":"/usr/lib/firefox/browser/extensions/langpack-en-GB@firefox.mozilla.org.xpi","skinnable":false,"size":1230880,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":true,"hasBinaryComponents":false,"strictCompatibility":true,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"55.0.2","maxVersion":"55.*"}],"targetPlatforms":[],"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null}
+1505567509755	DeferredSave.extensions.json	DEBUG	Save changes
+1505567509756	addons.manager	DEBUG	Registering startup change 'installed' for langpack-pt-BR@firefox.mozilla.org
+1505567509756	addons.manager	DEBUG	Registering startup change 'installed' for langpack-pt-BR@firefox.mozilla.org
+1505567509757	addons.xpi-utils	DEBUG	Make addon app-global:langpack-pt-BR@firefox.mozilla.org visible
+1505567509757	addons.xpi	DEBUG	Updating XPIState for {"id":"langpack-pt-BR@firefox.mozilla.org","syncGUID":"{97661d82-92ca-4200-aaa7-f4160091cb4c}","location":"app-global","version":"55.0.2","type":"locale","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"optionsBrowserStyle":null,"aboutURL":null,"defaultLocale":{"name":"Português (pt-BR) Language Pack","description":null,"creator":"mozilla.org","homepageURL":null,"contributors":["Fernando Pereira Silveira","Jefferson Hultmann","Marco Aurélio Krause","Reuben Morais"]},"visible":true,"active":false,"userDisabled":false,"appDisabled":false,"installDate":1502929199000,"updateDate":1502929199000,"applyBackgroundUpdates":1,"bootstrap":true,"path":"/usr/lib/firefox/browser/extensions/langpack-pt-BR@firefox.mozilla.org.xpi","skinnable":false,"size":1275298,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":true,"hasBinaryComponents":false,"strictCompatibility":true,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"55.0.2","maxVersion":"55.*"}],"targetPlatforms":[],"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null}
+1505567509758	DeferredSave.extensions.json	DEBUG	Save changes
+1505567509759	addons.manager	DEBUG	Registering startup change 'installed' for langpack-en-ZA@firefox.mozilla.org
+1505567509759	addons.manager	DEBUG	Registering startup change 'installed' for langpack-en-ZA@firefox.mozilla.org
+1505567509761	addons.xpi-utils	DEBUG	Make addon app-global:langpack-en-ZA@firefox.mozilla.org visible
+1505567509762	addons.xpi	DEBUG	Updating XPIState for {"id":"langpack-en-ZA@firefox.mozilla.org","syncGUID":"{51499ad5-e99d-44cb-8aa9-26d797e8a0b5}","location":"app-global","version":"55.0.2","type":"locale","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"optionsBrowserStyle":null,"aboutURL":null,"defaultLocale":{"name":"English (South Africa) Language Pack","description":null,"creator":"Translate.org.za","homepageURL":null,"contributors":["Translate.org.za","Dwayne Bailey"]},"visible":true,"active":false,"userDisabled":false,"appDisabled":false,"installDate":1502928963000,"updateDate":1502928963000,"applyBackgroundUpdates":1,"bootstrap":true,"path":"/usr/lib/firefox/browser/extensions/langpack-en-ZA@firefox.mozilla.org.xpi","skinnable":false,"size":1228236,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":true,"hasBinaryComponents":false,"strictCompatibility":true,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"55.0.2","maxVersion":"55.*"}],"targetPlatforms":[],"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null}
+1505567509763	DeferredSave.extensions.json	DEBUG	Save changes
+1505567509763	addons.manager	DEBUG	Registering startup change 'installed' for langpack-pt-PT@firefox.mozilla.org
+1505567509763	addons.manager	DEBUG	Registering startup change 'installed' for langpack-pt-PT@firefox.mozilla.org
+1505567509764	addons.xpi-utils	DEBUG	Make addon app-global:langpack-pt-PT@firefox.mozilla.org visible
+1505567509764	addons.xpi	DEBUG	Updating XPIState for {"id":"langpack-pt-PT@firefox.mozilla.org","syncGUID":"{b96062a9-00d5-4161-b625-70f3c4ee4968}","location":"app-global","version":"55.0.2","type":"locale","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"optionsBrowserStyle":null,"aboutURL":null,"defaultLocale":{"name":"Português (Europeu) Language Pack","description":null,"creator":"mozilla.org","homepageURL":null,"contributors":["Albert de Castro","Artur Araújo","Bruno Duarte","Carlos Rodrigues","Cláudio Esperança","Diogo Santos","Francisco Castanheiro","Gonçalo Matos","João Miguel Neves","Marco Sousa","Pedro Antunes","Pedro Figueira","Rita Farinha","Rodrigo Cunha","Sérgio Marques"]},"visible":true,"active":false,"userDisabled":false,"appDisabled":false,"installDate":1502929200000,"updateDate":1502929200000,"applyBackgroundUpdates":1,"bootstrap":true,"path":"/usr/lib/firefox/browser/extensions/langpack-pt-PT@firefox.mozilla.org.xpi","skinnable":false,"size":1276154,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":true,"hasBinaryComponents":false,"strictCompatibility":true,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"55.0.2","maxVersion":"55.*"}],"targetPlatforms":[],"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null}
+1505567509765	DeferredSave.extensions.json	DEBUG	Save changes
+1505567509765	addons.xpi-utils	DEBUG	Make addon app-global:{972ce4c6-7e08-4474-a285-3208198ce6fd} visible
+1505567509766	addons.xpi	DEBUG	Updating XPIState for {"id":"{972ce4c6-7e08-4474-a285-3208198ce6fd}","syncGUID":"{5087aae9-93df-4a8b-97ad-4ae20613b91d}","location":"app-global","version":"55.0.2","type":"theme","internalName":"classic/1.0","updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"optionsBrowserStyle":null,"aboutURL":null,"defaultLocale":{"name":"Default","description":"The default theme.","creator":"Mozilla","homepageURL":null,"contributors":["Mozilla Contributors"]},"visible":true,"active":false,"userDisabled":false,"appDisabled":false,"installDate":1502927313000,"updateDate":1502927313000,"applyBackgroundUpdates":1,"path":"/usr/lib/firefox/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi","skinnable":true,"size":2918,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":true,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"55.0.2","maxVersion":"55.0.2"}],"targetPlatforms":[],"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"userPermissions":null,"icons":{},"iconURL":"chrome://browser/content/default-theme-icon.svg","icon64URL":null}
+1505567509767	DeferredSave.extensions.json	DEBUG	Save changes
+1505567509767	addons.xpi	DEBUG	Updating XPIState for {"id":"firefox@getpocket.com","syncGUID":"{a5831233-5ae5-4ef5-996a-5f142bb0fbdb}","location":"app-system-defaults","version":"1.0.5","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Pocket","description":"When you find something you want to view later, put it in Pocket.","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"installDate":1502927313000,"updateDate":1502927313000,"applyBackgroundUpdates":1,"bootstrap":true,"path":"/usr/lib/firefox/browser/features/firefox@getpocket.com.xpi","skinnable":false,"size":855802,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"55.0.2","maxVersion":"55.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null}
+1505567509767	addons.xpi	DEBUG	Updating XPIState for {"id":"aushelper@mozilla.org","syncGUID":"{7d2028c2-09d1-4be9-a95b-8df6472d0180}","location":"app-system-defaults","version":"2.0","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Application Update Service Helper","description":"Sets value(s) in the update url based on custom checks.","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"installDate":1502927313000,"updateDate":1502927313000,"applyBackgroundUpdates":1,"bootstrap":true,"path":"/usr/lib/firefox/browser/features/aushelper@mozilla.org.xpi","skinnable":false,"size":8488,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"55.0.2","maxVersion":"55.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null}
+1505567509768	addons.xpi	DEBUG	Updating XPIState for {"id":"followonsearch@mozilla.com","syncGUID":"{0026b91b-c665-432a-9b6f-17fd6f43fb6d}","location":"app-system-defaults","version":"0.9.1","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Follow-on Search Telemetry","description":null,"creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"installDate":1502927313000,"updateDate":1502927313000,"applyBackgroundUpdates":1,"bootstrap":true,"path":"/usr/lib/firefox/browser/features/followonsearch@mozilla.com.xpi","skinnable":false,"size":16730,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"52.0","maxVersion":"59.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null}
+1505567509768	addons.xpi	DEBUG	Updating XPIState for {"id":"clicktoplay-rollout@mozilla.org","syncGUID":"{a287c30c-e711-4f84-b569-3fa93dd167db}","location":"app-system-defaults","version":"1.2","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Click-to-Play staged rollout","description":"Staged rollout for Click-to-Play Flash.","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"installDate":1502927313000,"updateDate":1502927313000,"applyBackgroundUpdates":1,"bootstrap":true,"path":"/usr/lib/firefox/browser/features/clicktoplay-rollout@mozilla.org.xpi","skinnable":false,"size":5621,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"55.0.2","maxVersion":"55.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null}
+1505567509768	addons.xpi	DEBUG	Updating XPIState for {"id":"webcompat@mozilla.org","syncGUID":"{ee81378f-858b-4724-b069-c6384c980e2e}","location":"app-system-defaults","version":"1.1","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Web Compat","description":"Urgent post-release fixes for web compatibility.","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"installDate":1502927313000,"updateDate":1502927313000,"applyBackgroundUpdates":1,"bootstrap":true,"path":"/usr/lib/firefox/browser/features/webcompat@mozilla.org.xpi","skinnable":false,"size":8992,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"55.0.2","maxVersion":"55.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null}
+1505567509768	addons.xpi	DEBUG	Updating XPIState for {"id":"shield-recipe-client@mozilla.org","syncGUID":"{7f1e0c51-91aa-4bd4-8d46-4bb7e909a6ff}","location":"app-system-defaults","version":"55.1","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Shield Recipe Client","description":"Client to download and run recipes for SHIELD, Heartbeat, etc.","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"installDate":1502927313000,"updateDate":1502927313000,"applyBackgroundUpdates":1,"bootstrap":true,"path":"/usr/lib/firefox/browser/features/shield-recipe-client@mozilla.org.xpi","skinnable":false,"size":140305,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"55.0.2","maxVersion":"55.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null}
+1505567509769	addons.xpi	DEBUG	Updating XPIState for {"id":"screenshots@mozilla.org","syncGUID":"{ac5fed22-c632-4d7c-930b-194907c0bcc4}","location":"app-system-defaults","version":"10.10.0","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Firefox Screenshots","description":null,"creator":null,"homepageURL":"https://pageshot.net/"},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"installDate":1502927313000,"updateDate":1502927313000,"applyBackgroundUpdates":1,"bootstrap":true,"path":"/usr/lib/firefox/browser/features/screenshots@mozilla.org.xpi","skinnable":false,"size":651762,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"51.0a1","maxVersion":"*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null}
+1505567509769	addons.xpi	DEBUG	Updating XPIState for {"id":"e10srollout@mozilla.org","syncGUID":"{2349f08b-e379-4fc4-9ab6-33259290e033}","location":"app-system-defaults","version":"2.0","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Multi-process staged rollout","description":"Staged rollout of Firefox multi-process feature.","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"installDate":1502927313000,"updateDate":1502927313000,"applyBackgroundUpdates":1,"bootstrap":true,"path":"/usr/lib/firefox/browser/features/e10srollout@mozilla.org.xpi","skinnable":false,"size":13287,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"55.0.2","maxVersion":"55.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null}
+1505567509769	addons.xpi	DEBUG	Updating XPIState for {"id":"langpack-en-GB@firefox.mozilla.org","syncGUID":"{9e1ca123-6853-44d5-bca7-001207931112}","location":"app-global","version":"55.0.2","type":"locale","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"optionsBrowserStyle":null,"aboutURL":null,"defaultLocale":{"name":"English (GB) Language Pack","description":null,"creator":"Mark Tyndall","homepageURL":null,"contributors":["David Bartlett","Constantine Murenin","Ian Neal"]},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"installDate":1502928962000,"updateDate":1502928962000,"applyBackgroundUpdates":1,"bootstrap":true,"path":"/usr/lib/firefox/browser/extensions/langpack-en-GB@firefox.mozilla.org.xpi","skinnable":false,"size":1230880,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":true,"hasBinaryComponents":false,"strictCompatibility":true,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"55.0.2","maxVersion":"55.*"}],"targetPlatforms":[],"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null}
+1505567509769	addons.xpi	DEBUG	Updating XPIState for {"id":"langpack-pt-BR@firefox.mozilla.org","syncGUID":"{97661d82-92ca-4200-aaa7-f4160091cb4c}","location":"app-global","version":"55.0.2","type":"locale","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"optionsBrowserStyle":null,"aboutURL":null,"defaultLocale":{"name":"Português (pt-BR) Language Pack","description":null,"creator":"mozilla.org","homepageURL":null,"contributors":["Fernando Pereira Silveira","Jefferson Hultmann","Marco Aurélio Krause","Reuben Morais"]},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"installDate":1502929199000,"updateDate":1502929199000,"applyBackgroundUpdates":1,"bootstrap":true,"path":"/usr/lib/firefox/browser/extensions/langpack-pt-BR@firefox.mozilla.org.xpi","skinnable":false,"size":1275298,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":true,"hasBinaryComponents":false,"strictCompatibility":true,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"55.0.2","maxVersion":"55.*"}],"targetPlatforms":[],"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null}
+1505567509770	addons.xpi	DEBUG	Updating XPIState for {"id":"langpack-en-ZA@firefox.mozilla.org","syncGUID":"{51499ad5-e99d-44cb-8aa9-26d797e8a0b5}","location":"app-global","version":"55.0.2","type":"locale","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"optionsBrowserStyle":null,"aboutURL":null,"defaultLocale":{"name":"English (South Africa) Language Pack","description":null,"creator":"Translate.org.za","homepageURL":null,"contributors":["Translate.org.za","Dwayne Bailey"]},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"installDate":1502928963000,"updateDate":1502928963000,"applyBackgroundUpdates":1,"bootstrap":true,"path":"/usr/lib/firefox/browser/extensions/langpack-en-ZA@firefox.mozilla.org.xpi","skinnable":false,"size":1228236,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":true,"hasBinaryComponents":false,"strictCompatibility":true,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"55.0.2","maxVersion":"55.*"}],"targetPlatforms":[],"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null}
+1505567509770	addons.xpi	DEBUG	Updating XPIState for {"id":"langpack-pt-PT@firefox.mozilla.org","syncGUID":"{b96062a9-00d5-4161-b625-70f3c4ee4968}","location":"app-global","version":"55.0.2","type":"locale","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"optionsBrowserStyle":null,"aboutURL":null,"defaultLocale":{"name":"Português (Europeu) Language Pack","description":null,"creator":"mozilla.org","homepageURL":null,"contributors":["Albert de Castro","Artur Araújo","Bruno Duarte","Carlos Rodrigues","Cláudio Esperança","Diogo Santos","Francisco Castanheiro","Gonçalo Matos","João Miguel Neves","Marco Sousa","Pedro Antunes","Pedro Figueira","Rita Farinha","Rodrigo Cunha","Sérgio Marques"]},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"installDate":1502929200000,"updateDate":1502929200000,"applyBackgroundUpdates":1,"bootstrap":true,"path":"/usr/lib/firefox/browser/extensions/langpack-pt-PT@firefox.mozilla.org.xpi","skinnable":false,"size":1276154,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":true,"hasBinaryComponents":false,"strictCompatibility":true,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"55.0.2","maxVersion":"55.*"}],"targetPlatforms":[],"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null}
+1505567509770	addons.xpi	DEBUG	Updating XPIState for {"id":"{972ce4c6-7e08-4474-a285-3208198ce6fd}","syncGUID":"{5087aae9-93df-4a8b-97ad-4ae20613b91d}","location":"app-global","version":"55.0.2","type":"theme","internalName":"classic/1.0","updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"optionsBrowserStyle":null,"aboutURL":null,"defaultLocale":{"name":"Default","description":"The default theme.","creator":"Mozilla","homepageURL":null,"contributors":["Mozilla Contributors"]},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"installDate":1502927313000,"updateDate":1502927313000,"applyBackgroundUpdates":1,"path":"/usr/lib/firefox/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi","skinnable":true,"size":2918,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":true,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"55.0.2","maxVersion":"55.0.2"}],"targetPlatforms":[],"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"userPermissions":null,"icons":{},"iconURL":"chrome://browser/content/default-theme-icon.svg","icon64URL":null}
+1505567509771	DeferredSave.extensions.json	DEBUG	Save changes
+1505567509771	addons.xpi	DEBUG	Updating database with changes to installed add-ons
+1505567509771	addons.xpi-utils	DEBUG	Updating add-on states
+1505567509780	addons.xpi	DEBUG	Registering manifest for /usr/lib/firefox/browser/features/aushelper@mozilla.org.xpi
+1505567509780	addons.xpi	DEBUG	Calling bootstrap method startup on aushelper@mozilla.org version 2.0
+1505567509782	addons.xpi	DEBUG	Registering manifest for /usr/lib/firefox/browser/features/clicktoplay-rollout@mozilla.org.xpi
+1505567509782	addons.xpi	DEBUG	Calling bootstrap method startup on clicktoplay-rollout@mozilla.org version 1.2
+1505567509839	addons.xpi	DEBUG	Registering manifest for /usr/lib/firefox/browser/features/e10srollout@mozilla.org.xpi
+1505567509840	addons.xpi	DEBUG	Calling bootstrap method startup on e10srollout@mozilla.org version 2.0
+1505567509840	addons.xpi	DEBUG	Registering manifest for /usr/lib/firefox/browser/features/firefox@getpocket.com.xpi
+1505567509841	addons.xpi	DEBUG	Calling bootstrap method startup on firefox@getpocket.com version 1.0.5
+1505567509914	addons.xpi	DEBUG	Registering manifest for /usr/lib/firefox/browser/features/followonsearch@mozilla.com.xpi
+1505567509915	addons.xpi	DEBUG	Calling bootstrap method startup on followonsearch@mozilla.com version 0.9.1
+1505567509917	addons.xpi	DEBUG	Registering manifest for /usr/lib/firefox/browser/extensions/langpack-en-GB@firefox.mozilla.org.xpi
+1505567509919	addons.xpi	DEBUG	Registering manifest for /usr/lib/firefox/browser/extensions/langpack-en-ZA@firefox.mozilla.org.xpi
+1505567509921	addons.xpi	DEBUG	Registering manifest for /usr/lib/firefox/browser/extensions/langpack-pt-BR@firefox.mozilla.org.xpi
+1505567509924	addons.xpi	DEBUG	Registering manifest for /usr/lib/firefox/browser/extensions/langpack-pt-PT@firefox.mozilla.org.xpi
+1505567509927	addons.xpi	DEBUG	Registering manifest for /usr/lib/firefox/browser/features/screenshots@mozilla.org.xpi
+1505567509927	addons.xpi	DEBUG	Calling bootstrap method startup on screenshots@mozilla.org version 10.10.0
+1505567509928	addons.xpi	DEBUG	Registering manifest for /usr/lib/firefox/browser/features/shield-recipe-client@mozilla.org.xpi
+1505567509929	addons.xpi	DEBUG	Calling bootstrap method startup on shield-recipe-client@mozilla.org version 55.1
+1505567509943	addons.xpi	DEBUG	Registering manifest for /usr/lib/firefox/browser/features/webcompat@mozilla.org.xpi
+1505567509943	addons.xpi	DEBUG	Calling bootstrap method startup on webcompat@mozilla.org version 1.1
+1505567509953	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1505567509953	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1505567509954	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1505567509954	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1505567509954	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1505567509955	addons.manager	DEBUG	Starting provider: GMPProvider
+1505567509961	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1505567509961	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1505567509961	addons.manager	DEBUG	Starting provider: PluginProvider
+1505567509962	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1505567509962	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1505567509963	addons.manager	DEBUG	Completed startup sequence
+1505567510409	Marionette	INFO	Enabled via --marionette
+1505567511216	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1505567511216	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1505567511217	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+1505567511406	DeferredSave.extensions.json	DEBUG	Write succeeded
+1505567511406	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 21
+1505567511406	DeferredSave.extensions.json	DEBUG	Starting timer
+1505567511466	DeferredSave.extensions.json	DEBUG	Starting write
+1505567511499	DeferredSave.extensions.json	DEBUG	Write succeeded
+1505567514267	addons.manager	DEBUG	Starting provider: <unnamed-provider>
+1505567514267	addons.manager	DEBUG	Registering shutdown blocker for <unnamed-provider>
+1505567514268	addons.manager	DEBUG	Provider finished startup: <unnamed-provider>
+1505567514273	addons.xpi	INFO	Mapping firefox@getpocket.com to /usr/lib/firefox/browser/features/firefox@getpocket.com.xpi
+1505567514273	addons.xpi	INFO	Mapping aushelper@mozilla.org to /usr/lib/firefox/browser/features/aushelper@mozilla.org.xpi
+1505567514274	addons.xpi	INFO	Mapping followonsearch@mozilla.com to /usr/lib/firefox/browser/features/followonsearch@mozilla.com.xpi
+1505567514274	addons.xpi	INFO	Mapping clicktoplay-rollout@mozilla.org to /usr/lib/firefox/browser/features/clicktoplay-rollout@mozilla.org.xpi
+1505567514274	addons.xpi	INFO	Mapping webcompat@mozilla.org to /usr/lib/firefox/browser/features/webcompat@mozilla.org.xpi
+1505567514274	addons.xpi	INFO	Mapping shield-recipe-client@mozilla.org to /usr/lib/firefox/browser/features/shield-recipe-client@mozilla.org.xpi
+1505567514274	addons.xpi	INFO	Mapping screenshots@mozilla.org to /usr/lib/firefox/browser/features/screenshots@mozilla.org.xpi
+1505567514274	addons.xpi	INFO	Mapping e10srollout@mozilla.org to /usr/lib/firefox/browser/features/e10srollout@mozilla.org.xpi
+1505567514275	addons.xpi	DEBUG	Existing add-on firefox@getpocket.com in app-system-defaults
+1505567514275	addons.xpi	DEBUG	Existing add-on aushelper@mozilla.org in app-system-defaults
+1505567514276	addons.xpi	DEBUG	Existing add-on followonsearch@mozilla.com in app-system-defaults
+1505567514276	addons.xpi	DEBUG	Existing add-on clicktoplay-rollout@mozilla.org in app-system-defaults
+1505567514277	addons.xpi	DEBUG	Existing add-on webcompat@mozilla.org in app-system-defaults
+1505567514277	addons.xpi	DEBUG	Existing add-on shield-recipe-client@mozilla.org in app-system-defaults
+1505567514277	addons.xpi	DEBUG	Existing add-on screenshots@mozilla.org in app-system-defaults
+1505567514278	addons.xpi	DEBUG	Existing add-on e10srollout@mozilla.org in app-system-defaults
+1505567514278	addons.xpi	INFO	Mapping langpack-en-GB@firefox.mozilla.org to /usr/lib/firefox/browser/extensions/langpack-en-GB@firefox.mozilla.org.xpi
+1505567514278	addons.xpi	INFO	Mapping langpack-pt-BR@firefox.mozilla.org to /usr/lib/firefox/browser/extensions/langpack-pt-BR@firefox.mozilla.org.xpi
+1505567514278	addons.xpi	INFO	Mapping langpack-en-ZA@firefox.mozilla.org to /usr/lib/firefox/browser/extensions/langpack-en-ZA@firefox.mozilla.org.xpi
+1505567514279	addons.xpi	INFO	Mapping langpack-pt-PT@firefox.mozilla.org to /usr/lib/firefox/browser/extensions/langpack-pt-PT@firefox.mozilla.org.xpi
+1505567514279	addons.xpi	INFO	Mapping {972ce4c6-7e08-4474-a285-3208198ce6fd} to /usr/lib/firefox/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi
+1505567514279	addons.xpi	DEBUG	Existing add-on langpack-en-GB@firefox.mozilla.org in app-global
+1505567514279	addons.xpi	DEBUG	Existing add-on langpack-pt-BR@firefox.mozilla.org in app-global
+1505567514280	addons.xpi	DEBUG	Existing add-on langpack-en-ZA@firefox.mozilla.org in app-global
+1505567514280	addons.xpi	DEBUG	Existing add-on langpack-pt-PT@firefox.mozilla.org in app-global
+1505567514280	addons.xpi	DEBUG	Existing add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} in app-global
+1505567514281	addons.xpi	DEBUG	getInstallState changed: false, state: {}
+1505567514347	addons.productaddons	INFO	sending request to: https://aus5.mozilla.org/update/3/GMP/55.0.2/20170816210634/Linux_x86_64-gcc3/null/release-cck- ubuntu/Linux%204.4.0-31-generic%20(GTK%203.18.9%2Clibpulse%208.0.0)/canonical/1.0/update.xml
+1505567516157	Marionette	INFO	Listening on port 35413
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1505567516262	Marionette	WARN	TLS certificate errors will be ignored for this session
+1505567516338	Marionette	DEBUG	loaded listener.js
+1505567516510	addons.productaddons	INFO	Completed downloading document
+1505567516956	addons.productaddons	INFO	downloadXHR File download. status=200
+1505567516961	addons.productaddons	INFO	Downloaded file will be saved to /tmp/tmpaddon
+1505567520597	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1505567520662	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1505567520662	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1505567522874	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://g1.globo.com/e-ou-nao-e/"
+1505567524347	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://g1.globo.com/e-ou-nao-e/"
+1505567524357	Marionette	DEBUG	Received DOM event "pageshow" for "http://g1.globo.com/e-ou-nao-e/"
+1505567524469	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://g1.globo.com/e-ou-nao-e/"
+1505567524477	Marionette	DEBUG	Received DOM event "pageshow" for "http://g1.globo.com/e-ou-nao-e/"
+1505567524478	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://g1.globo.com/e-ou-nao-e/"
+1505567524480	Marionette	DEBUG	Received DOM event "pageshow" for "http://g1.globo.com/e-ou-nao-e/"
+1505567524481	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://g1.globo.com/e-ou-nao-e/"
+1505567524484	Marionette	DEBUG	Received DOM event "pageshow" for "http://g1.globo.com/e-ou-nao-e/"
+1505567524485	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://g1.globo.com/e-ou-nao-e/"
+1505567524487	Marionette	DEBUG	Received DOM event "pageshow" for "http://g1.globo.com/e-ou-nao-e/"
+1505567524488	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483656"
+1505567524628	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483658"
+1505567524635	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483655"
+1505567524652	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://cdn.krxd.net/partnerjs/xdi/proxy.3d2100fd7107262ecb55ce6847f01fa5.html#!kxcid=J2lZajxx&kxt=http%3A%2F%2Fg1.globo.com&kxcl=cdn&kxp="
+1505567524797	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://g1.globo.com/e-ou-nao-e/"
+1505567524800	Marionette	DEBUG	Received DOM event "pageshow" for "http://g1.globo.com/e-ou-nao-e/"
+1505567525021	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://g1.globo.com/e-ou-nao-e/"
+1505567525028	Marionette	DEBUG	Received DOM event "pageshow" for "http://g1.globo.com/e-ou-nao-e/"
+1505567525108	Marionette	DEBUG	Received DOM event "pageshow" for "http://cdn.krxd.net/partnerjs/xdi/proxy.3d2100fd7107262ecb55ce6847f01fa5.html#!kxcid=J2lZajxx&kxt=http%3A%2F%2Fg1.globo.com&kxcl=cdn&kxp="
+1505567525341	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483678"
+1505567525507	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://tpc.googlesyndication.com/safeframe/1-0-10/html/container.html"
+1505567525584	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://tpc.googlesyndication.com/safeframe/1-0-10/html/container.html"
+1505567525605	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://tpc.googlesyndication.com/safeframe/1-0-10/html/container.html"
+1505567525638	Marionette	DEBUG	Received DOM event "pageshow" for "http://tpc.googlesyndication.com/safeframe/1-0-10/html/container.html"
+1505567525689	Marionette	DEBUG	Received DOM event "pageshow" for "http://tpc.googlesyndication.com/safeframe/1-0-10/html/container.html"
+1505567525697	Marionette	DEBUG	Received DOM event "pageshow" for "http://tpc.googlesyndication.com/safeframe/1-0-10/html/container.html"
+1505567526051	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://tpc.googlesyndication.com/safeframe/1-0-10/html/container.html#eid=21060374"
+1505567526203	Marionette	DEBUG	Received DOM event "pageshow" for "http://tpc.googlesyndication.com/safeframe/1-0-10/html/container.html#eid=21060374"
+1505567526940	Marionette	DEBUG	Received DOM event "pageshow" for "http://g1.globo.com/e-ou-nao-e/"
+1505567527470	Marionette	DEBUG	Received DOM event "pagehide" for "http://g1.globo.com/e-ou-nao-e/"
+1505567527566	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483659"
+1505567527568	Marionette	DEBUG	Received DOM event "pagehide" for "http://g1.globo.com/e-ou-nao-e/"
+1505567527662	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567527928	Marionette	DEBUG	Received DOM event "pagehide" for "http://g1.globo.com/e-ou-nao-e/"
+1505567528043	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567528516	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567529026	Marionette	DEBUG	Received DOM event "pagehide" for "about:srcdoc"
+1505567529088	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483688"
+1505567529144	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567529691	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567530142	Marionette	DEBUG	Received DOM event "pagehide" for "about:srcdoc"
+1505567530291	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483694"
+1505567530320	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567530677	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567530919	Marionette	DEBUG	Received DOM event "pagehide" for "http://tpc.googlesyndication.com/safeframe/1-0-10/html/container.html#eid=21060374"
+JavaScript error: http://vitrines.globo.com/vitrine/vitrine.min.js, line 2: SyntaxError: An invalid or illegal string was specified
+1505567531024	Marionette	DEBUG	Received DOM event "pagehide" for "http://vitrines.globo.com/vitrine/shop/5/g1/home.html?&url=null&ss=g1/home&sps=5&sts=5&color_text=c4170c"
+1505567531148	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567531672	Marionette	DEBUG	Received DOM event "pagehide" for "about:srcdoc"
+1505567531747	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483705"
+1505567531765	Marionette	DEBUG	Received DOM event "pagehide" for "http://g1.globo.com/e-ou-nao-e/"
+1505567531841	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567532347	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567532707	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567533246	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567533573	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567533983	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567534548	Marionette	DEBUG	Received DOM event "pagehide" for "about:srcdoc"
+1505567534822	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483721"
+1505567534827	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567535918	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483725"
+1505567535974	Marionette	DEBUG	Received DOM event "pagehide" for "http://g1.globo.com/e-ou-nao-e/"
+1505567536105	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567536664	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567537195	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567537497	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567537837	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567538448	Marionette	DEBUG	Received DOM event "pagehide" for "about:srcdoc"
+1505567538537	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483731"
+1505567538549	Marionette	DEBUG	Received DOM event "pagehide" for "http://g1.globo.com/e-ou-nao-e/"
+1505567538602	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567538986	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567539586	Marionette	DEBUG	Received DOM event "pagehide" for "http://g1.globo.com/e-ou-nao-e/"
+1505567539590	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567539824	Marionette	DEBUG	Received DOM event "pagehide" for "about:srcdoc"
+1505567539896	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483736"
+1505567539943	Marionette	DEBUG	Received DOM event "pagehide" for "http://g1.globo.com/e-ou-nao-e/"
+1505567539971	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567540364	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567540895	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567544079	Marionette	DEBUG	Received DOM event "beforeunload" for "http://g1.globo.com/e-ou-nao-e/"
+1505567544315	Marionette	DEBUG	Received DOM event "pagehide" for "http://g1.globo.com/e-ou-nao-e/"
+1505567544391	Marionette	DEBUG	Received DOM event "unload" for "http://g1.globo.com/e-ou-nao-e/"
+1505567546039	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483654"
+1505567546041	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483683"
+1505567546041	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483657"
+1505567546042	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483669"
+1505567546043	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483680"
+1505567546044	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483693"
+1505567546048	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483690"
+1505567546049	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483697"
+1505567546051	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483707"
+1505567546054	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483723"
+1505567546058	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483728"
+1505567546062	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483733"
+1505567546062	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483738"
+1505567546064	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483743"
+1505567546065	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483756"
+1505567546066	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483753"
+1505567546066	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483750"
+1505567546066	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483671"
+1505567546067	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483667"
+1505567546067	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483717"
+1505567546069	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483719"
+1505567546069	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483713"
+1505567546071	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483715"
+1505567546071	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483711"
+1505567546072	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483703"
+1505567546073	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483700"
+1505567546073	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483685"
+1505567546074	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483676"
+1505567546074	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483653"
+1505567547314	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://g1.globo.com/e-ou-nao-e/"
+1505567548097	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://g1.globo.com/e-ou-nao-e/"
+1505567548109	Marionette	DEBUG	Received DOM event "pageshow" for "http://g1.globo.com/e-ou-nao-e/"
+1505567548171	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://g1.globo.com/e-ou-nao-e/"
+1505567548176	Marionette	DEBUG	Received DOM event "pageshow" for "http://g1.globo.com/e-ou-nao-e/"
+1505567548176	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://g1.globo.com/e-ou-nao-e/"
+1505567548178	Marionette	DEBUG	Received DOM event "pageshow" for "http://g1.globo.com/e-ou-nao-e/"
+1505567548179	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://g1.globo.com/e-ou-nao-e/"
+1505567548181	Marionette	DEBUG	Received DOM event "pageshow" for "http://g1.globo.com/e-ou-nao-e/"
+1505567548181	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://g1.globo.com/e-ou-nao-e/"
+1505567548185	Marionette	DEBUG	Received DOM event "pageshow" for "http://g1.globo.com/e-ou-nao-e/"
+1505567548185	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://g1.globo.com/e-ou-nao-e/"
+1505567548188	Marionette	DEBUG	Received DOM event "pageshow" for "http://g1.globo.com/e-ou-nao-e/"
+1505567548208	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://cdn.krxd.net/partnerjs/xdi/proxy.3d2100fd7107262ecb55ce6847f01fa5.html#!kxcid=J2lZajxx&kxt=http%3A%2F%2Fg1.globo.com&kxcl=cdn&kxp="
+1505567548256	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483762"
+1505567548325	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483765"
+1505567548764	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://g1.globo.com/e-ou-nao-e/"
+1505567548768	Marionette	DEBUG	Received DOM event "pageshow" for "http://g1.globo.com/e-ou-nao-e/"
+1505567548880	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://tpc.googlesyndication.com/safeframe/1-0-10/html/container.html#eid=21060374"
+1505567548881	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://g1.globo.com/e-ou-nao-e/"
+1505567548883	Marionette	DEBUG	Received DOM event "pageshow" for "http://g1.globo.com/e-ou-nao-e/"
+1505567548911	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://tpc.googlesyndication.com/safeframe/1-0-10/html/container.html#eid=21060374"
+1505567548921	Marionette	DEBUG	Received DOM event "pageshow" for "http://cdn.krxd.net/partnerjs/xdi/proxy.3d2100fd7107262ecb55ce6847f01fa5.html#!kxcid=J2lZajxx&kxt=http%3A%2F%2Fg1.globo.com&kxcl=cdn&kxp="
+1505567548981	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483780"
+1505567549007	Marionette	DEBUG	Received DOM event "pageshow" for "http://tpc.googlesyndication.com/safeframe/1-0-10/html/container.html#eid=21060374"
+1505567549025	Marionette	DEBUG	Received DOM event "pageshow" for "http://tpc.googlesyndication.com/safeframe/1-0-10/html/container.html#eid=21060374"
+1505567549593	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://tpc.googlesyndication.com/safeframe/1-0-10/html/container.html#eid=21060374"
+1505567549905	Marionette	DEBUG	Received DOM event "pageshow" for "http://tpc.googlesyndication.com/safeframe/1-0-10/html/container.html#eid=21060374"
+1505567550347	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://g1.globo.com/e-ou-nao-e/"
+1505567550451	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://tap2-cdn.rubiconproject.com/partner/scripts/rubicon/emily.html?pc=13764/64720&geo=sa&co=br"
+1505567551237	Marionette	DEBUG	Received DOM event "pageshow" for "https://tap2-cdn.rubiconproject.com/partner/scripts/rubicon/emily.html?pc=13764/64720&geo=sa&co=br"
+1505567551802	Marionette	DEBUG	Received DOM event "pageshow" for "http://g1.globo.com/e-ou-nao-e/"
+1505567552811	Marionette	DEBUG	Received DOM event "pageshow" for "http://g1.globo.com/e-ou-nao-e/"
+1505567553370	Marionette	DEBUG	Received DOM event "pagehide" for "http://g1.globo.com/e-ou-nao-e/"
+1505567553462	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483766"
+1505567553463	Marionette	DEBUG	Received DOM event "pagehide" for "http://g1.globo.com/e-ou-nao-e/"
+1505567553589	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567553815	Marionette	DEBUG	Received DOM event "pagehide" for "http://g1.globo.com/e-ou-nao-e/"
+1505567553913	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567554250	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567555026	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: http://vitrines.globo.com/vitrine/vitrine.min.js, line 2: SyntaxError: An invalid or illegal string was specified
+1505567555402	Marionette	DEBUG	Received DOM event "pagehide" for "http://g1.globo.com/e-ou-nao-e/"
+1505567555418	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567555774	Marionette	DEBUG	Received DOM event "pagehide" for "about:srcdoc"
+1505567555956	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483800"
+1505567556004	Marionette	DEBUG	Received DOM event "pagehide" for "http://g1.globo.com/e-ou-nao-e/"
+1505567556009	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567556438	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567556886	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567557531	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567557915	Marionette	DEBUG	Received DOM event "pagehide" for "http://g1.globo.com/e-ou-nao-e/"
+1505567557915	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567558090	Marionette	DEBUG	Received DOM event "pagehide" for "about:srcdoc"
+1505567558134	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483815"
+1505567558169	Marionette	DEBUG	Received DOM event "pagehide" for "about:srcdoc"
+1505567558213	Marionette	DEBUG	Received DOM event "pagehide" for "http://g1.globo.com/e-ou-nao-e/"
+1505567558216	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483817"
+1505567558259	Marionette	DEBUG	Received DOM event "pagehide" for "http://g1.globo.com/e-ou-nao-e/"
+1505567558327	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567558846	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567559211	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567559599	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567559962	Marionette	DEBUG	Received DOM event "pagehide" for "http://g1.globo.com/e-ou-nao-e/"
+1505567559996	Marionette	DEBUG	Received DOM event "pagehide" for "http://tpc.googlesyndication.com/safeframe/1-0-10/html/container.html#eid=21060374"
+1505567560166	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567561685	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567562159	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567562869	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567563239	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567563711	Marionette	DEBUG	Received DOM event "pagehide" for "http://g1.globo.com/e-ou-nao-e/"
+1505567563736	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567563947	Marionette	DEBUG	Received DOM event "pagehide" for "http://g1.globo.com/e-ou-nao-e/"
+1505567564206	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567564560	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567565201	Marionette	DEBUG	Received DOM event "pagehide" for "http://g1.globo.com/e-ou-nao-e/"
+1505567565224	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567565585	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567565924	Marionette	DEBUG	Received DOM event "pagehide" for "http://g1.globo.com/e-ou-nao-e/"
+1505567566022	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567566541	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567569595	Marionette	DEBUG	Received DOM event "beforeunload" for "http://g1.globo.com/e-ou-nao-e/"
+1505567569858	Marionette	DEBUG	Received DOM event "pagehide" for "http://g1.globo.com/e-ou-nao-e/"
+1505567569891	Marionette	DEBUG	Received DOM event "unload" for "http://g1.globo.com/e-ou-nao-e/"
+1505567570792	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483761"
+1505567570796	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483790"
+1505567570801	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483764"
+1505567570804	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483776"
+1505567570806	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483785"
+1505567570810	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483804"
+1505567570812	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483819"
+1505567570815	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483825"
+1505567570824	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483821"
+1505567570827	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483826"
+1505567570830	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483829"
+1505567570832	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483832"
+1505567570833	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483834"
+1505567570834	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483836"
+1505567570835	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483838"
+1505567570836	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483840"
+1505567570838	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483774"
+1505567570841	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483788"
+1505567570843	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483763"
+1505567570844	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483802"
+1505567570850	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483807"
+1505567570851	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483809"
+1505567570852	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483811"
+1505567570853	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483813"
+1505567570855	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483797"
+1505567570859	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483795"
+1505567570867	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483792"
+1505567570868	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483782"
+1505567570868	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483760"
+1505567572043	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://g1.globo.com/e-ou-nao-e/"
+1505567572912	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://g1.globo.com/e-ou-nao-e/"
+1505567572935	Marionette	DEBUG	Received DOM event "pageshow" for "http://g1.globo.com/e-ou-nao-e/"
+1505567573058	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://g1.globo.com/e-ou-nao-e/"
+1505567573063	Marionette	DEBUG	Received DOM event "pageshow" for "http://g1.globo.com/e-ou-nao-e/"
+1505567573064	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://g1.globo.com/e-ou-nao-e/"
+1505567573065	Marionette	DEBUG	Received DOM event "pageshow" for "http://g1.globo.com/e-ou-nao-e/"
+1505567573067	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://g1.globo.com/e-ou-nao-e/"
+1505567573069	Marionette	DEBUG	Received DOM event "pageshow" for "http://g1.globo.com/e-ou-nao-e/"
+1505567573070	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://g1.globo.com/e-ou-nao-e/"
+1505567573073	Marionette	DEBUG	Received DOM event "pageshow" for "http://g1.globo.com/e-ou-nao-e/"
+1505567573074	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://g1.globo.com/e-ou-nao-e/"
+1505567573076	Marionette	DEBUG	Received DOM event "pageshow" for "http://g1.globo.com/e-ou-nao-e/"
+1505567573186	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483845"
+1505567573190	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483848"
+1505567573210	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://cdn.krxd.net/partnerjs/xdi/proxy.3d2100fd7107262ecb55ce6847f01fa5.html#!kxcid=J2lZajxx&kxt=http%3A%2F%2Fg1.globo.com&kxcl=cdn&kxp="
+1505567573628	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://g1.globo.com/e-ou-nao-e/"
+1505567573631	Marionette	DEBUG	Received DOM event "pageshow" for "http://g1.globo.com/e-ou-nao-e/"
+1505567573731	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://g1.globo.com/e-ou-nao-e/"
+1505567573733	Marionette	DEBUG	Received DOM event "pageshow" for "http://g1.globo.com/e-ou-nao-e/"
+1505567573828	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://tpc.googlesyndication.com/safeframe/1-0-10/html/container.html#eid=21060374"
+1505567573940	Marionette	DEBUG	Received DOM event "pageshow" for "http://cdn.krxd.net/partnerjs/xdi/proxy.3d2100fd7107262ecb55ce6847f01fa5.html#!kxcid=J2lZajxx&kxt=http%3A%2F%2Fg1.globo.com&kxcl=cdn&kxp="
+1505567573978	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://tpc.googlesyndication.com/safeframe/1-0-10/html/container.html#eid=21060374"
+1505567574021	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483865"
+1505567574037	Marionette	DEBUG	Received DOM event "pageshow" for "http://tpc.googlesyndication.com/safeframe/1-0-10/html/container.html#eid=21060374"
+1505567574054	Marionette	DEBUG	Received DOM event "pageshow" for "http://tpc.googlesyndication.com/safeframe/1-0-10/html/container.html#eid=21060374"
+1505567574506	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://tpc.googlesyndication.com/safeframe/1-0-10/html/container.html#eid=21060374"
+1505567574615	Marionette	DEBUG	Received DOM event "pageshow" for "http://tpc.googlesyndication.com/safeframe/1-0-10/html/container.html#eid=21060374"
+1505567574984	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://g1.globo.com/e-ou-nao-e/"
+1505567575033	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://tap2-cdn.rubiconproject.com/partner/scripts/rubicon/emily.html?pc=13764/64720&geo=sa&co=br"
+1505567576275	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://ad.turn.com/server/pixelssl.htm?fpid=6"
+1505567581825	Marionette	DEBUG	Received DOM event "pageshow" for "https://ad.turn.com/server/pixelssl.htm?fpid=6"
+1505567581829	Marionette	DEBUG	Received DOM event "pageshow" for "https://tap2-cdn.rubiconproject.com/partner/scripts/rubicon/emily.html?pc=13764/64720&geo=sa&co=br"
+1505567581859	Marionette	DEBUG	Received DOM event "pageshow" for "http://g1.globo.com/e-ou-nao-e/"
+1505567581879	Marionette	DEBUG	Received DOM event "pageshow" for "http://g1.globo.com/e-ou-nao-e/"
+1505567582279	Marionette	DEBUG	Received DOM event "pagehide" for "http://g1.globo.com/e-ou-nao-e/"
+1505567582375	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483849"
+1505567582377	Marionette	DEBUG	Received DOM event "pagehide" for "http://g1.globo.com/e-ou-nao-e/"
+1505567582469	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567582760	Marionette	DEBUG	Received DOM event "pagehide" for "http://g1.globo.com/e-ou-nao-e/"
+1505567582894	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567583568	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567583869	Marionette	DEBUG	Received DOM event "pagehide" for "http://g1.globo.com/e-ou-nao-e/"
+1505567583871	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: http://vitrines.globo.com/vitrine/vitrine.min.js, line 2: SyntaxError: An invalid or illegal string was specified
+1505567584097	Marionette	DEBUG	Received DOM event "pagehide" for "http://vitrines.globo.com/vitrine/shop/5/g1/home.html?&url=null&ss=g1/home&sps=5&sts=5&color_text=c4170c"
+1505567584251	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567584831	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567585214	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567585605	Marionette	DEBUG	Received DOM event "pagehide" for "http://g1.globo.com/e-ou-nao-e/"
+1505567585606	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567586048	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567586369	Marionette	DEBUG	Received DOM event "pagehide" for "http://g1.globo.com/e-ou-nao-e/"
+1505567586371	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567586711	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567587082	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567587384	Marionette	DEBUG	Received DOM event "pagehide" for "http://g1.globo.com/e-ou-nao-e/"
+1505567587385	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567587694	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567587960	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567588329	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567588659	Marionette	DEBUG	Received DOM event "pagehide" for "http://g1.globo.com/e-ou-nao-e/"
+1505567588675	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567588960	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567589351	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567589616	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567589751	Marionette	DEBUG	Received DOM event "pagehide" for "http://g1.globo.com/e-ou-nao-e/"
+1505567589950	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567590354	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567590679	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567590980	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567591247	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567591631	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567591910	Marionette	DEBUG	Received DOM event "pagehide" for "http://g1.globo.com/e-ou-nao-e/"
+1505567591912	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567592200	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567592462	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567592870	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567593185	Marionette	DEBUG	Received DOM event "pagehide" for "http://g1.globo.com/e-ou-nao-e/"
+1505567593187	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567593476	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567593731	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567594168	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567777376	geckodriver	INFO	geckodriver 0.18.0
+1505567777382	geckodriver	INFO	Listening on 127.0.0.1:45882
+1505567778694	geckodriver::marionette	INFO	Starting browser /usr/bin/firefox with args ["-marionette"]
+1505567779058	addons.manager	DEBUG	Application has been upgraded
+1505567779101	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/XPIProvider.jsm: ["XPIProvider", "XPIInternal"]
+1505567779107	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/LightweightThemeManager.jsm: ["LightweightThemeManager"]
+1505567779156	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/GMPProvider.jsm
+1505567779162	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/PluginProvider.jsm
+1505567779164	addons.manager	DEBUG	Starting provider: XPIProvider
+1505567779164	addons.xpi	DEBUG	startup
+1505567779165	addons.xpi	INFO	SystemAddonInstallLocation directory is missing
+1505567779165	addons.xpi	INFO	Removing all system add-on upgrades.
+1505567779167	addons.xpi	DEBUG	checkForChanges
+1505567779168	addons.xpi	DEBUG	Loaded add-on state: ${}
+1505567779171	addons.xpi	INFO	Mapping firefox@getpocket.com to /usr/lib/firefox/browser/features/firefox@getpocket.com.xpi
+1505567779171	addons.xpi	INFO	Mapping aushelper@mozilla.org to /usr/lib/firefox/browser/features/aushelper@mozilla.org.xpi
+1505567779172	addons.xpi	INFO	Mapping followonsearch@mozilla.com to /usr/lib/firefox/browser/features/followonsearch@mozilla.com.xpi
+1505567779172	addons.xpi	INFO	Mapping clicktoplay-rollout@mozilla.org to /usr/lib/firefox/browser/features/clicktoplay-rollout@mozilla.org.xpi
+1505567779172	addons.xpi	INFO	Mapping webcompat@mozilla.org to /usr/lib/firefox/browser/features/webcompat@mozilla.org.xpi
+1505567779173	addons.xpi	INFO	Mapping shield-recipe-client@mozilla.org to /usr/lib/firefox/browser/features/shield-recipe-client@mozilla.org.xpi
+1505567779173	addons.xpi	INFO	Mapping screenshots@mozilla.org to /usr/lib/firefox/browser/features/screenshots@mozilla.org.xpi
+1505567779173	addons.xpi	INFO	Mapping e10srollout@mozilla.org to /usr/lib/firefox/browser/features/e10srollout@mozilla.org.xpi
+1505567779174	addons.xpi	DEBUG	New add-on firefox@getpocket.com in app-system-defaults
+1505567779175	addons.xpi	INFO	Mapping firefox@getpocket.com to /usr/lib/firefox/browser/features/firefox@getpocket.com.xpi
+1505567779177	addons.xpi	DEBUG	New add-on aushelper@mozilla.org in app-system-defaults
+1505567779178	addons.xpi	INFO	Mapping aushelper@mozilla.org to /usr/lib/firefox/browser/features/aushelper@mozilla.org.xpi
+1505567779178	addons.xpi	DEBUG	New add-on followonsearch@mozilla.com in app-system-defaults
+1505567779179	addons.xpi	INFO	Mapping followonsearch@mozilla.com to /usr/lib/firefox/browser/features/followonsearch@mozilla.com.xpi
+1505567779179	addons.xpi	DEBUG	New add-on clicktoplay-rollout@mozilla.org in app-system-defaults
+1505567779180	addons.xpi	INFO	Mapping clicktoplay-rollout@mozilla.org to /usr/lib/firefox/browser/features/clicktoplay-rollout@mozilla.org.xpi
+1505567779180	addons.xpi	DEBUG	New add-on webcompat@mozilla.org in app-system-defaults
+1505567779180	addons.xpi	INFO	Mapping webcompat@mozilla.org to /usr/lib/firefox/browser/features/webcompat@mozilla.org.xpi
+1505567779181	addons.xpi	DEBUG	New add-on shield-recipe-client@mozilla.org in app-system-defaults
+1505567779185	addons.xpi	INFO	Mapping shield-recipe-client@mozilla.org to /usr/lib/firefox/browser/features/shield-recipe-client@mozilla.org.xpi
+1505567779186	addons.xpi	DEBUG	New add-on screenshots@mozilla.org in app-system-defaults
+1505567779186	addons.xpi	INFO	Mapping screenshots@mozilla.org to /usr/lib/firefox/browser/features/screenshots@mozilla.org.xpi
+1505567779186	addons.xpi	DEBUG	New add-on e10srollout@mozilla.org in app-system-defaults
+1505567779188	addons.xpi	INFO	Mapping e10srollout@mozilla.org to /usr/lib/firefox/browser/features/e10srollout@mozilla.org.xpi
+1505567779189	addons.xpi	INFO	Mapping langpack-en-GB@firefox.mozilla.org to /usr/lib/firefox/browser/extensions/langpack-en-GB@firefox.mozilla.org.xpi
+1505567779190	addons.xpi	INFO	Mapping langpack-pt-BR@firefox.mozilla.org to /usr/lib/firefox/browser/extensions/langpack-pt-BR@firefox.mozilla.org.xpi
+1505567779190	addons.xpi	INFO	Mapping langpack-en-ZA@firefox.mozilla.org to /usr/lib/firefox/browser/extensions/langpack-en-ZA@firefox.mozilla.org.xpi
+1505567779190	addons.xpi	INFO	Mapping langpack-pt-PT@firefox.mozilla.org to /usr/lib/firefox/browser/extensions/langpack-pt-PT@firefox.mozilla.org.xpi
+1505567779191	addons.xpi	INFO	Mapping {972ce4c6-7e08-4474-a285-3208198ce6fd} to /usr/lib/firefox/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi
+1505567779191	addons.xpi	DEBUG	New add-on langpack-en-GB@firefox.mozilla.org in app-global
+1505567779191	addons.xpi	INFO	Mapping langpack-en-GB@firefox.mozilla.org to /usr/lib/firefox/browser/extensions/langpack-en-GB@firefox.mozilla.org.xpi
+1505567779191	addons.xpi	DEBUG	New add-on langpack-pt-BR@firefox.mozilla.org in app-global
+1505567779192	addons.xpi	INFO	Mapping langpack-pt-BR@firefox.mozilla.org to /usr/lib/firefox/browser/extensions/langpack-pt-BR@firefox.mozilla.org.xpi
+1505567779192	addons.xpi	DEBUG	New add-on langpack-en-ZA@firefox.mozilla.org in app-global
+1505567779192	addons.xpi	INFO	Mapping langpack-en-ZA@firefox.mozilla.org to /usr/lib/firefox/browser/extensions/langpack-en-ZA@firefox.mozilla.org.xpi
+1505567779194	addons.xpi	DEBUG	New add-on langpack-pt-PT@firefox.mozilla.org in app-global
+1505567779194	addons.xpi	INFO	Mapping langpack-pt-PT@firefox.mozilla.org to /usr/lib/firefox/browser/extensions/langpack-pt-PT@firefox.mozilla.org.xpi
+1505567779194	addons.xpi	DEBUG	New add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} in app-global
+1505567779195	addons.xpi	INFO	Mapping {972ce4c6-7e08-4474-a285-3208198ce6fd} to /usr/lib/firefox/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi
+1505567779195	addons.xpi	DEBUG	getInstallState changed: true, state: {}
+1505567779196	addons.xpi	INFO	SystemAddonInstallLocation directory is missing
+1505567779208	addons.xpi-utils	DEBUG	Opening XPI database /tmp/rust_mozprofile.WINJv9SEanCq/extensions.json
+1505567779211	addons.xpi-utils	DEBUG	New add-on firefox@getpocket.com installed in app-system-defaults
+*** Blocklist::_loadBlocklistFromFile: blocklist is disabled
+1505567779254	DeferredSave.extensions.json	DEBUG	Save changes
+1505567779257	addons.xpi-utils	DEBUG	New add-on aushelper@mozilla.org installed in app-system-defaults
+1505567779262	DeferredSave.extensions.json	DEBUG	Starting timer
+1505567779264	DeferredSave.extensions.json	DEBUG	Save changes
+1505567779265	addons.xpi-utils	DEBUG	New add-on followonsearch@mozilla.com installed in app-system-defaults
+1505567779270	DeferredSave.extensions.json	DEBUG	Save changes
+1505567779271	addons.xpi-utils	DEBUG	New add-on clicktoplay-rollout@mozilla.org installed in app-system-defaults
+1505567779277	DeferredSave.extensions.json	DEBUG	Save changes
+1505567779277	addons.xpi-utils	DEBUG	New add-on webcompat@mozilla.org installed in app-system-defaults
+1505567779281	DeferredSave.extensions.json	DEBUG	Save changes
+1505567779281	addons.xpi-utils	DEBUG	New add-on shield-recipe-client@mozilla.org installed in app-system-defaults
+1505567779291	DeferredSave.extensions.json	DEBUG	Save changes
+1505567779291	addons.xpi-utils	DEBUG	New add-on screenshots@mozilla.org installed in app-system-defaults
+1505567779297	DeferredSave.extensions.json	DEBUG	Save changes
+1505567779298	addons.xpi-utils	DEBUG	New add-on e10srollout@mozilla.org installed in app-system-defaults
+1505567779301	DeferredSave.extensions.json	DEBUG	Save changes
+1505567779302	addons.xpi-utils	DEBUG	New add-on langpack-en-GB@firefox.mozilla.org installed in app-global
+1505567779313	DeferredSave.extensions.json	DEBUG	Save changes
+1505567779313	addons.xpi-utils	DEBUG	New add-on langpack-pt-BR@firefox.mozilla.org installed in app-global
+1505567779323	DeferredSave.extensions.json	DEBUG	Save changes
+1505567779323	addons.xpi-utils	DEBUG	New add-on langpack-en-ZA@firefox.mozilla.org installed in app-global
+1505567779337	DeferredSave.extensions.json	DEBUG	Save changes
+1505567779337	addons.xpi-utils	DEBUG	New add-on langpack-pt-PT@firefox.mozilla.org installed in app-global
+1505567779347	DeferredSave.extensions.json	DEBUG	Save changes
+1505567779347	addons.xpi-utils	DEBUG	New add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} installed in app-global
+1505567779354	DeferredSave.extensions.json	DEBUG	Starting write
+1505567779362	DeferredSave.extensions.json	DEBUG	Save changes
+1505567779362	DeferredSave.extensions.json	DEBUG	Data changed while write in progress
+1505567779363	addons.manager	DEBUG	Registering startup change 'installed' for firefox@getpocket.com
+1505567779379	addons.xpi	DEBUG	Loading bootstrap scope from /usr/lib/firefox/browser/features/firefox@getpocket.com.xpi
+1505567779388	addons.xpi	DEBUG	Calling bootstrap method install on firefox@getpocket.com version 1.0.5
+1505567779388	addons.xpi-utils	DEBUG	Make addon app-system-defaults:firefox@getpocket.com visible
+1505567779389	addons.xpi	DEBUG	Updating XPIState for {"id":"firefox@getpocket.com","syncGUID":"{6f0a7def-5b92-41b0-a54f-73b2963af3b4}","location":"app-system-defaults","version":"1.0.5","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Pocket","description":"When you find something you want to view later, put it in Pocket.","creator":null,"homepageURL":null},"visible":true,"active":false,"userDisabled":false,"appDisabled":false,"installDate":1502927313000,"updateDate":1502927313000,"applyBackgroundUpdates":1,"bootstrap":true,"path":"/usr/lib/firefox/browser/features/firefox@getpocket.com.xpi","skinnable":false,"size":855802,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"55.0.2","maxVersion":"55.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null}
+1505567779394	DeferredSave.extensions.json	DEBUG	Save changes
+1505567779394	addons.manager	DEBUG	Registering startup change 'installed' for aushelper@mozilla.org
+1505567779396	addons.xpi	DEBUG	Loading bootstrap scope from /usr/lib/firefox/browser/features/aushelper@mozilla.org.xpi
+1505567779399	addons.xpi	DEBUG	Calling bootstrap method install on aushelper@mozilla.org version 2.0
+1505567779399	addons.xpi-utils	DEBUG	Make addon app-system-defaults:aushelper@mozilla.org visible
+1505567779399	addons.xpi	DEBUG	Updating XPIState for {"id":"aushelper@mozilla.org","syncGUID":"{25b4f9a9-f1f5-483b-afa8-401c519a1f39}","location":"app-system-defaults","version":"2.0","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Application Update Service Helper","description":"Sets value(s) in the update url based on custom checks.","creator":null,"homepageURL":null},"visible":true,"active":false,"userDisabled":false,"appDisabled":false,"installDate":1502927313000,"updateDate":1502927313000,"applyBackgroundUpdates":1,"bootstrap":true,"path":"/usr/lib/firefox/browser/features/aushelper@mozilla.org.xpi","skinnable":false,"size":8488,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"55.0.2","maxVersion":"55.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null}
+1505567779400	DeferredSave.extensions.json	DEBUG	Save changes
+1505567779400	addons.manager	DEBUG	Registering startup change 'installed' for followonsearch@mozilla.com
+1505567779401	addons.xpi	DEBUG	Loading bootstrap scope from /usr/lib/firefox/browser/features/followonsearch@mozilla.com.xpi
+1505567779404	addons.xpi	DEBUG	Calling bootstrap method install on followonsearch@mozilla.com version 0.9.1
+1505567779405	addons.xpi-utils	DEBUG	Make addon app-system-defaults:followonsearch@mozilla.com visible
+1505567779405	addons.xpi	DEBUG	Updating XPIState for {"id":"followonsearch@mozilla.com","syncGUID":"{62e4630f-246b-4c89-92f2-59e8620253a1}","location":"app-system-defaults","version":"0.9.1","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Follow-on Search Telemetry","description":null,"creator":null,"homepageURL":null},"visible":true,"active":false,"userDisabled":false,"appDisabled":false,"installDate":1502927313000,"updateDate":1502927313000,"applyBackgroundUpdates":1,"bootstrap":true,"path":"/usr/lib/firefox/browser/features/followonsearch@mozilla.com.xpi","skinnable":false,"size":16730,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"52.0","maxVersion":"59.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null}
+1505567779406	DeferredSave.extensions.json	DEBUG	Save changes
+1505567779406	addons.manager	DEBUG	Registering startup change 'installed' for clicktoplay-rollout@mozilla.org
+1505567779407	addons.xpi	DEBUG	Loading bootstrap scope from /usr/lib/firefox/browser/features/clicktoplay-rollout@mozilla.org.xpi
+1505567779426	addons.xpi	DEBUG	Calling bootstrap method install on clicktoplay-rollout@mozilla.org version 1.2
+1505567779426	addons.xpi-utils	DEBUG	Make addon app-system-defaults:clicktoplay-rollout@mozilla.org visible
+1505567779427	addons.xpi	DEBUG	Updating XPIState for {"id":"clicktoplay-rollout@mozilla.org","syncGUID":"{af8e75d3-3eba-4f8c-b684-e9f92c8e8179}","location":"app-system-defaults","version":"1.2","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Click-to-Play staged rollout","description":"Staged rollout for Click-to-Play Flash.","creator":null,"homepageURL":null},"visible":true,"active":false,"userDisabled":false,"appDisabled":false,"installDate":1502927313000,"updateDate":1502927313000,"applyBackgroundUpdates":1,"bootstrap":true,"path":"/usr/lib/firefox/browser/features/clicktoplay-rollout@mozilla.org.xpi","skinnable":false,"size":5621,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"55.0.2","maxVersion":"55.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null}
+1505567779427	DeferredSave.extensions.json	DEBUG	Save changes
+1505567779428	addons.manager	DEBUG	Registering startup change 'installed' for webcompat@mozilla.org
+1505567779429	addons.xpi	DEBUG	Loading bootstrap scope from /usr/lib/firefox/browser/features/webcompat@mozilla.org.xpi
+1505567779431	addons.xpi	DEBUG	Calling bootstrap method install on webcompat@mozilla.org version 1.1
+1505567779432	addons.xpi-utils	DEBUG	Make addon app-system-defaults:webcompat@mozilla.org visible
+1505567779432	addons.xpi	DEBUG	Updating XPIState for {"id":"webcompat@mozilla.org","syncGUID":"{0ab7ef1c-5547-459f-8a0a-b2ff225d90a9}","location":"app-system-defaults","version":"1.1","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Web Compat","description":"Urgent post-release fixes for web compatibility.","creator":null,"homepageURL":null},"visible":true,"active":false,"userDisabled":false,"appDisabled":false,"installDate":1502927313000,"updateDate":1502927313000,"applyBackgroundUpdates":1,"bootstrap":true,"path":"/usr/lib/firefox/browser/features/webcompat@mozilla.org.xpi","skinnable":false,"size":8992,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"55.0.2","maxVersion":"55.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null}
+1505567779433	DeferredSave.extensions.json	DEBUG	Save changes
+1505567779433	addons.manager	DEBUG	Registering startup change 'installed' for shield-recipe-client@mozilla.org
+1505567779434	addons.xpi	DEBUG	Loading bootstrap scope from /usr/lib/firefox/browser/features/shield-recipe-client@mozilla.org.xpi
+1505567779437	addons.xpi	DEBUG	Calling bootstrap method install on shield-recipe-client@mozilla.org version 55.1
+1505567779438	addons.xpi-utils	DEBUG	Make addon app-system-defaults:shield-recipe-client@mozilla.org visible
+1505567779438	addons.xpi	DEBUG	Updating XPIState for {"id":"shield-recipe-client@mozilla.org","syncGUID":"{11835084-9adb-4318-b235-4229604e4dae}","location":"app-system-defaults","version":"55.1","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Shield Recipe Client","description":"Client to download and run recipes for SHIELD, Heartbeat, etc.","creator":null,"homepageURL":null},"visible":true,"active":false,"userDisabled":false,"appDisabled":false,"installDate":1502927313000,"updateDate":1502927313000,"applyBackgroundUpdates":1,"bootstrap":true,"path":"/usr/lib/firefox/browser/features/shield-recipe-client@mozilla.org.xpi","skinnable":false,"size":140305,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"55.0.2","maxVersion":"55.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null}
+1505567779439	DeferredSave.extensions.json	DEBUG	Save changes
+1505567779439	addons.manager	DEBUG	Registering startup change 'installed' for screenshots@mozilla.org
+1505567779440	addons.xpi	DEBUG	Loading bootstrap scope from /usr/lib/firefox/browser/features/screenshots@mozilla.org.xpi
+1505567779443	addons.xpi	DEBUG	Calling bootstrap method install on screenshots@mozilla.org version 10.10.0
+1505567779443	addons.xpi-utils	DEBUG	Make addon app-system-defaults:screenshots@mozilla.org visible
+1505567779444	addons.xpi	DEBUG	Updating XPIState for {"id":"screenshots@mozilla.org","syncGUID":"{0a3616e9-0248-42d3-9725-bf65b2881e24}","location":"app-system-defaults","version":"10.10.0","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Firefox Screenshots","description":null,"creator":null,"homepageURL":"https://pageshot.net/"},"visible":true,"active":false,"userDisabled":false,"appDisabled":false,"installDate":1502927313000,"updateDate":1502927313000,"applyBackgroundUpdates":1,"bootstrap":true,"path":"/usr/lib/firefox/browser/features/screenshots@mozilla.org.xpi","skinnable":false,"size":651762,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"51.0a1","maxVersion":"*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null}
+1505567779444	DeferredSave.extensions.json	DEBUG	Save changes
+1505567779445	addons.manager	DEBUG	Registering startup change 'installed' for e10srollout@mozilla.org
+1505567779445	addons.xpi	DEBUG	Loading bootstrap scope from /usr/lib/firefox/browser/features/e10srollout@mozilla.org.xpi
+1505567779449	addons.xpi	DEBUG	Calling bootstrap method install on e10srollout@mozilla.org version 2.0
+1505567779452	addons.xpi-utils	DEBUG	Make addon app-system-defaults:e10srollout@mozilla.org visible
+1505567779452	addons.xpi	DEBUG	Updating XPIState for {"id":"e10srollout@mozilla.org","syncGUID":"{c1345c5e-02eb-4887-9be7-7886b345ebe9}","location":"app-system-defaults","version":"2.0","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Multi-process staged rollout","description":"Staged rollout of Firefox multi-process feature.","creator":null,"homepageURL":null},"visible":true,"active":false,"userDisabled":false,"appDisabled":false,"installDate":1502927313000,"updateDate":1502927313000,"applyBackgroundUpdates":1,"bootstrap":true,"path":"/usr/lib/firefox/browser/features/e10srollout@mozilla.org.xpi","skinnable":false,"size":13287,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"55.0.2","maxVersion":"55.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null}
+1505567779453	DeferredSave.extensions.json	DEBUG	Save changes
+1505567779453	addons.manager	DEBUG	Registering startup change 'installed' for langpack-en-GB@firefox.mozilla.org
+1505567779454	addons.manager	DEBUG	Registering startup change 'installed' for langpack-en-GB@firefox.mozilla.org
+1505567779454	addons.xpi-utils	DEBUG	Make addon app-global:langpack-en-GB@firefox.mozilla.org visible
+1505567779455	addons.xpi	DEBUG	Updating XPIState for {"id":"langpack-en-GB@firefox.mozilla.org","syncGUID":"{8737f688-79bb-4598-ad14-666e0ba573c4}","location":"app-global","version":"55.0.2","type":"locale","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"optionsBrowserStyle":null,"aboutURL":null,"defaultLocale":{"name":"English (GB) Language Pack","description":null,"creator":"Mark Tyndall","homepageURL":null,"contributors":["David Bartlett","Constantine Murenin","Ian Neal"]},"visible":true,"active":false,"userDisabled":false,"appDisabled":false,"installDate":1502928962000,"updateDate":1502928962000,"applyBackgroundUpdates":1,"bootstrap":true,"path":"/usr/lib/firefox/browser/extensions/langpack-en-GB@firefox.mozilla.org.xpi","skinnable":false,"size":1230880,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":true,"hasBinaryComponents":false,"strictCompatibility":true,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"55.0.2","maxVersion":"55.*"}],"targetPlatforms":[],"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null}
+1505567779456	DeferredSave.extensions.json	DEBUG	Save changes
+1505567779456	addons.manager	DEBUG	Registering startup change 'installed' for langpack-pt-BR@firefox.mozilla.org
+1505567779456	addons.manager	DEBUG	Registering startup change 'installed' for langpack-pt-BR@firefox.mozilla.org
+1505567779457	addons.xpi-utils	DEBUG	Make addon app-global:langpack-pt-BR@firefox.mozilla.org visible
+1505567779458	addons.xpi	DEBUG	Updating XPIState for {"id":"langpack-pt-BR@firefox.mozilla.org","syncGUID":"{28f6b98d-2b94-4ace-842c-ffc032462bf1}","location":"app-global","version":"55.0.2","type":"locale","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"optionsBrowserStyle":null,"aboutURL":null,"defaultLocale":{"name":"Português (pt-BR) Language Pack","description":null,"creator":"mozilla.org","homepageURL":null,"contributors":["Fernando Pereira Silveira","Jefferson Hultmann","Marco Aurélio Krause","Reuben Morais"]},"visible":true,"active":false,"userDisabled":false,"appDisabled":false,"installDate":1502929199000,"updateDate":1502929199000,"applyBackgroundUpdates":1,"bootstrap":true,"path":"/usr/lib/firefox/browser/extensions/langpack-pt-BR@firefox.mozilla.org.xpi","skinnable":false,"size":1275298,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":true,"hasBinaryComponents":false,"strictCompatibility":true,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"55.0.2","maxVersion":"55.*"}],"targetPlatforms":[],"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null}
+1505567779459	DeferredSave.extensions.json	DEBUG	Save changes
+1505567779459	addons.manager	DEBUG	Registering startup change 'installed' for langpack-en-ZA@firefox.mozilla.org
+1505567779459	addons.manager	DEBUG	Registering startup change 'installed' for langpack-en-ZA@firefox.mozilla.org
+1505567779461	addons.xpi-utils	DEBUG	Make addon app-global:langpack-en-ZA@firefox.mozilla.org visible
+1505567779462	addons.xpi	DEBUG	Updating XPIState for {"id":"langpack-en-ZA@firefox.mozilla.org","syncGUID":"{b697ffd5-ae96-4302-afed-92caebd8d763}","location":"app-global","version":"55.0.2","type":"locale","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"optionsBrowserStyle":null,"aboutURL":null,"defaultLocale":{"name":"English (South Africa) Language Pack","description":null,"creator":"Translate.org.za","homepageURL":null,"contributors":["Translate.org.za","Dwayne Bailey"]},"visible":true,"active":false,"userDisabled":false,"appDisabled":false,"installDate":1502928963000,"updateDate":1502928963000,"applyBackgroundUpdates":1,"bootstrap":true,"path":"/usr/lib/firefox/browser/extensions/langpack-en-ZA@firefox.mozilla.org.xpi","skinnable":false,"size":1228236,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":true,"hasBinaryComponents":false,"strictCompatibility":true,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"55.0.2","maxVersion":"55.*"}],"targetPlatforms":[],"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null}
+1505567779463	DeferredSave.extensions.json	DEBUG	Save changes
+1505567779464	addons.manager	DEBUG	Registering startup change 'installed' for langpack-pt-PT@firefox.mozilla.org
+1505567779464	addons.manager	DEBUG	Registering startup change 'installed' for langpack-pt-PT@firefox.mozilla.org
+1505567779464	addons.xpi-utils	DEBUG	Make addon app-global:langpack-pt-PT@firefox.mozilla.org visible
+1505567779465	addons.xpi	DEBUG	Updating XPIState for {"id":"langpack-pt-PT@firefox.mozilla.org","syncGUID":"{d5f0609c-0def-496d-bf6f-2308faae731f}","location":"app-global","version":"55.0.2","type":"locale","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"optionsBrowserStyle":null,"aboutURL":null,"defaultLocale":{"name":"Português (Europeu) Language Pack","description":null,"creator":"mozilla.org","homepageURL":null,"contributors":["Albert de Castro","Artur Araújo","Bruno Duarte","Carlos Rodrigues","Cláudio Esperança","Diogo Santos","Francisco Castanheiro","Gonçalo Matos","João Miguel Neves","Marco Sousa","Pedro Antunes","Pedro Figueira","Rita Farinha","Rodrigo Cunha","Sérgio Marques"]},"visible":true,"active":false,"userDisabled":false,"appDisabled":false,"installDate":1502929200000,"updateDate":1502929200000,"applyBackgroundUpdates":1,"bootstrap":true,"path":"/usr/lib/firefox/browser/extensions/langpack-pt-PT@firefox.mozilla.org.xpi","skinnable":false,"size":1276154,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":true,"hasBinaryComponents":false,"strictCompatibility":true,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"55.0.2","maxVersion":"55.*"}],"targetPlatforms":[],"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null}
+1505567779466	DeferredSave.extensions.json	DEBUG	Save changes
+1505567779466	addons.xpi-utils	DEBUG	Make addon app-global:{972ce4c6-7e08-4474-a285-3208198ce6fd} visible
+1505567779466	addons.xpi	DEBUG	Updating XPIState for {"id":"{972ce4c6-7e08-4474-a285-3208198ce6fd}","syncGUID":"{583f8094-a80b-4de0-a01b-499b3f842e94}","location":"app-global","version":"55.0.2","type":"theme","internalName":"classic/1.0","updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"optionsBrowserStyle":null,"aboutURL":null,"defaultLocale":{"name":"Default","description":"The default theme.","creator":"Mozilla","homepageURL":null,"contributors":["Mozilla Contributors"]},"visible":true,"active":false,"userDisabled":false,"appDisabled":false,"installDate":1502927313000,"updateDate":1502927313000,"applyBackgroundUpdates":1,"path":"/usr/lib/firefox/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi","skinnable":true,"size":2918,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":true,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"55.0.2","maxVersion":"55.0.2"}],"targetPlatforms":[],"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"userPermissions":null,"icons":{},"iconURL":"chrome://browser/content/default-theme-icon.svg","icon64URL":null}
+1505567779467	DeferredSave.extensions.json	DEBUG	Save changes
+1505567779468	addons.xpi	DEBUG	Updating XPIState for {"id":"firefox@getpocket.com","syncGUID":"{6f0a7def-5b92-41b0-a54f-73b2963af3b4}","location":"app-system-defaults","version":"1.0.5","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Pocket","description":"When you find something you want to view later, put it in Pocket.","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"installDate":1502927313000,"updateDate":1502927313000,"applyBackgroundUpdates":1,"bootstrap":true,"path":"/usr/lib/firefox/browser/features/firefox@getpocket.com.xpi","skinnable":false,"size":855802,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"55.0.2","maxVersion":"55.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null}
+1505567779468	addons.xpi	DEBUG	Updating XPIState for {"id":"aushelper@mozilla.org","syncGUID":"{25b4f9a9-f1f5-483b-afa8-401c519a1f39}","location":"app-system-defaults","version":"2.0","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Application Update Service Helper","description":"Sets value(s) in the update url based on custom checks.","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"installDate":1502927313000,"updateDate":1502927313000,"applyBackgroundUpdates":1,"bootstrap":true,"path":"/usr/lib/firefox/browser/features/aushelper@mozilla.org.xpi","skinnable":false,"size":8488,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"55.0.2","maxVersion":"55.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null}
+1505567779468	addons.xpi	DEBUG	Updating XPIState for {"id":"followonsearch@mozilla.com","syncGUID":"{62e4630f-246b-4c89-92f2-59e8620253a1}","location":"app-system-defaults","version":"0.9.1","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Follow-on Search Telemetry","description":null,"creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"installDate":1502927313000,"updateDate":1502927313000,"applyBackgroundUpdates":1,"bootstrap":true,"path":"/usr/lib/firefox/browser/features/followonsearch@mozilla.com.xpi","skinnable":false,"size":16730,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"52.0","maxVersion":"59.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null}
+1505567779469	addons.xpi	DEBUG	Updating XPIState for {"id":"clicktoplay-rollout@mozilla.org","syncGUID":"{af8e75d3-3eba-4f8c-b684-e9f92c8e8179}","location":"app-system-defaults","version":"1.2","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Click-to-Play staged rollout","description":"Staged rollout for Click-to-Play Flash.","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"installDate":1502927313000,"updateDate":1502927313000,"applyBackgroundUpdates":1,"bootstrap":true,"path":"/usr/lib/firefox/browser/features/clicktoplay-rollout@mozilla.org.xpi","skinnable":false,"size":5621,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"55.0.2","maxVersion":"55.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null}
+1505567779469	addons.xpi	DEBUG	Updating XPIState for {"id":"webcompat@mozilla.org","syncGUID":"{0ab7ef1c-5547-459f-8a0a-b2ff225d90a9}","location":"app-system-defaults","version":"1.1","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Web Compat","description":"Urgent post-release fixes for web compatibility.","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"installDate":1502927313000,"updateDate":1502927313000,"applyBackgroundUpdates":1,"bootstrap":true,"path":"/usr/lib/firefox/browser/features/webcompat@mozilla.org.xpi","skinnable":false,"size":8992,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"55.0.2","maxVersion":"55.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null}
+1505567779469	addons.xpi	DEBUG	Updating XPIState for {"id":"shield-recipe-client@mozilla.org","syncGUID":"{11835084-9adb-4318-b235-4229604e4dae}","location":"app-system-defaults","version":"55.1","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Shield Recipe Client","description":"Client to download and run recipes for SHIELD, Heartbeat, etc.","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"installDate":1502927313000,"updateDate":1502927313000,"applyBackgroundUpdates":1,"bootstrap":true,"path":"/usr/lib/firefox/browser/features/shield-recipe-client@mozilla.org.xpi","skinnable":false,"size":140305,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"55.0.2","maxVersion":"55.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null}
+1505567779470	addons.xpi	DEBUG	Updating XPIState for {"id":"screenshots@mozilla.org","syncGUID":"{0a3616e9-0248-42d3-9725-bf65b2881e24}","location":"app-system-defaults","version":"10.10.0","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Firefox Screenshots","description":null,"creator":null,"homepageURL":"https://pageshot.net/"},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"installDate":1502927313000,"updateDate":1502927313000,"applyBackgroundUpdates":1,"bootstrap":true,"path":"/usr/lib/firefox/browser/features/screenshots@mozilla.org.xpi","skinnable":false,"size":651762,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"51.0a1","maxVersion":"*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null}
+1505567779470	addons.xpi	DEBUG	Updating XPIState for {"id":"e10srollout@mozilla.org","syncGUID":"{c1345c5e-02eb-4887-9be7-7886b345ebe9}","location":"app-system-defaults","version":"2.0","type":"extension","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"aboutURL":null,"defaultLocale":{"name":"Multi-process staged rollout","description":"Staged rollout of Firefox multi-process feature.","creator":null,"homepageURL":null},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"installDate":1502927313000,"updateDate":1502927313000,"applyBackgroundUpdates":1,"bootstrap":true,"path":"/usr/lib/firefox/browser/features/e10srollout@mozilla.org.xpi","skinnable":false,"size":13287,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":false,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"55.0.2","maxVersion":"55.*"}],"targetPlatforms":[],"multiprocessCompatible":true,"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"mpcOptedOut":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null}
+1505567779471	addons.xpi	DEBUG	Updating XPIState for {"id":"langpack-en-GB@firefox.mozilla.org","syncGUID":"{8737f688-79bb-4598-ad14-666e0ba573c4}","location":"app-global","version":"55.0.2","type":"locale","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"optionsBrowserStyle":null,"aboutURL":null,"defaultLocale":{"name":"English (GB) Language Pack","description":null,"creator":"Mark Tyndall","homepageURL":null,"contributors":["David Bartlett","Constantine Murenin","Ian Neal"]},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"installDate":1502928962000,"updateDate":1502928962000,"applyBackgroundUpdates":1,"bootstrap":true,"path":"/usr/lib/firefox/browser/extensions/langpack-en-GB@firefox.mozilla.org.xpi","skinnable":false,"size":1230880,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":true,"hasBinaryComponents":false,"strictCompatibility":true,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"55.0.2","maxVersion":"55.*"}],"targetPlatforms":[],"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null}
+1505567779471	addons.xpi	DEBUG	Updating XPIState for {"id":"langpack-pt-BR@firefox.mozilla.org","syncGUID":"{28f6b98d-2b94-4ace-842c-ffc032462bf1}","location":"app-global","version":"55.0.2","type":"locale","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"optionsBrowserStyle":null,"aboutURL":null,"defaultLocale":{"name":"Português (pt-BR) Language Pack","description":null,"creator":"mozilla.org","homepageURL":null,"contributors":["Fernando Pereira Silveira","Jefferson Hultmann","Marco Aurélio Krause","Reuben Morais"]},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"installDate":1502929199000,"updateDate":1502929199000,"applyBackgroundUpdates":1,"bootstrap":true,"path":"/usr/lib/firefox/browser/extensions/langpack-pt-BR@firefox.mozilla.org.xpi","skinnable":false,"size":1275298,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":true,"hasBinaryComponents":false,"strictCompatibility":true,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"55.0.2","maxVersion":"55.*"}],"targetPlatforms":[],"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null}
+1505567779472	addons.xpi	DEBUG	Updating XPIState for {"id":"langpack-en-ZA@firefox.mozilla.org","syncGUID":"{b697ffd5-ae96-4302-afed-92caebd8d763}","location":"app-global","version":"55.0.2","type":"locale","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"optionsBrowserStyle":null,"aboutURL":null,"defaultLocale":{"name":"English (South Africa) Language Pack","description":null,"creator":"Translate.org.za","homepageURL":null,"contributors":["Translate.org.za","Dwayne Bailey"]},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"installDate":1502928963000,"updateDate":1502928963000,"applyBackgroundUpdates":1,"bootstrap":true,"path":"/usr/lib/firefox/browser/extensions/langpack-en-ZA@firefox.mozilla.org.xpi","skinnable":false,"size":1228236,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":true,"hasBinaryComponents":false,"strictCompatibility":true,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"55.0.2","maxVersion":"55.*"}],"targetPlatforms":[],"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null}
+1505567779474	addons.xpi	DEBUG	Updating XPIState for {"id":"langpack-pt-PT@firefox.mozilla.org","syncGUID":"{d5f0609c-0def-496d-bf6f-2308faae731f}","location":"app-global","version":"55.0.2","type":"locale","internalName":null,"updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"optionsBrowserStyle":null,"aboutURL":null,"defaultLocale":{"name":"Português (Europeu) Language Pack","description":null,"creator":"mozilla.org","homepageURL":null,"contributors":["Albert de Castro","Artur Araújo","Bruno Duarte","Carlos Rodrigues","Cláudio Esperança","Diogo Santos","Francisco Castanheiro","Gonçalo Matos","João Miguel Neves","Marco Sousa","Pedro Antunes","Pedro Figueira","Rita Farinha","Rodrigo Cunha","Sérgio Marques"]},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"installDate":1502929200000,"updateDate":1502929200000,"applyBackgroundUpdates":1,"bootstrap":true,"path":"/usr/lib/firefox/browser/extensions/langpack-pt-PT@firefox.mozilla.org.xpi","skinnable":false,"size":1276154,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":true,"hasBinaryComponents":false,"strictCompatibility":true,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"55.0.2","maxVersion":"55.*"}],"targetPlatforms":[],"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"userPermissions":null,"icons":{},"iconURL":null,"icon64URL":null}
+1505567779474	addons.xpi	DEBUG	Updating XPIState for {"id":"{972ce4c6-7e08-4474-a285-3208198ce6fd}","syncGUID":"{583f8094-a80b-4de0-a01b-499b3f842e94}","location":"app-global","version":"55.0.2","type":"theme","internalName":"classic/1.0","updateURL":null,"updateKey":null,"optionsURL":null,"optionsType":null,"optionsBrowserStyle":null,"aboutURL":null,"defaultLocale":{"name":"Default","description":"The default theme.","creator":"Mozilla","homepageURL":null,"contributors":["Mozilla Contributors"]},"visible":true,"active":true,"userDisabled":false,"appDisabled":false,"installDate":1502927313000,"updateDate":1502927313000,"applyBackgroundUpdates":1,"path":"/usr/lib/firefox/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi","skinnable":true,"size":2918,"sourceURI":null,"releaseNotesURI":null,"softDisabled":false,"foreignInstall":false,"hasBinaryComponents":false,"strictCompatibility":true,"locales":[],"targetApplications":[{"id":"{ec8030f7-c20a-464f-9b0e-13a3a9e97384}","minVersion":"55.0.2","maxVersion":"55.0.2"}],"targetPlatforms":[],"seen":true,"dependencies":[],"hasEmbeddedWebExtension":false,"userPermissions":null,"icons":{},"iconURL":"chrome://browser/content/default-theme-icon.svg","icon64URL":null}
+1505567779475	DeferredSave.extensions.json	DEBUG	Save changes
+1505567779475	addons.xpi	DEBUG	Updating database with changes to installed add-ons
+1505567779475	addons.xpi-utils	DEBUG	Updating add-on states
+1505567779484	addons.xpi	DEBUG	Registering manifest for /usr/lib/firefox/browser/features/aushelper@mozilla.org.xpi
+1505567779484	addons.xpi	DEBUG	Calling bootstrap method startup on aushelper@mozilla.org version 2.0
+1505567779486	addons.xpi	DEBUG	Registering manifest for /usr/lib/firefox/browser/features/clicktoplay-rollout@mozilla.org.xpi
+1505567779486	addons.xpi	DEBUG	Calling bootstrap method startup on clicktoplay-rollout@mozilla.org version 1.2
+1505567779542	addons.xpi	DEBUG	Registering manifest for /usr/lib/firefox/browser/features/e10srollout@mozilla.org.xpi
+1505567779543	addons.xpi	DEBUG	Calling bootstrap method startup on e10srollout@mozilla.org version 2.0
+1505567779543	addons.xpi	DEBUG	Registering manifest for /usr/lib/firefox/browser/features/firefox@getpocket.com.xpi
+1505567779544	addons.xpi	DEBUG	Calling bootstrap method startup on firefox@getpocket.com version 1.0.5
+1505567779604	addons.xpi	DEBUG	Registering manifest for /usr/lib/firefox/browser/features/followonsearch@mozilla.com.xpi
+1505567779604	addons.xpi	DEBUG	Calling bootstrap method startup on followonsearch@mozilla.com version 0.9.1
+1505567779605	addons.xpi	DEBUG	Registering manifest for /usr/lib/firefox/browser/extensions/langpack-en-GB@firefox.mozilla.org.xpi
+1505567779608	addons.xpi	DEBUG	Registering manifest for /usr/lib/firefox/browser/extensions/langpack-en-ZA@firefox.mozilla.org.xpi
+1505567779610	addons.xpi	DEBUG	Registering manifest for /usr/lib/firefox/browser/extensions/langpack-pt-BR@firefox.mozilla.org.xpi
+1505567779612	addons.xpi	DEBUG	Registering manifest for /usr/lib/firefox/browser/extensions/langpack-pt-PT@firefox.mozilla.org.xpi
+1505567779615	addons.xpi	DEBUG	Registering manifest for /usr/lib/firefox/browser/features/screenshots@mozilla.org.xpi
+1505567779616	addons.xpi	DEBUG	Calling bootstrap method startup on screenshots@mozilla.org version 10.10.0
+1505567779617	addons.xpi	DEBUG	Registering manifest for /usr/lib/firefox/browser/features/shield-recipe-client@mozilla.org.xpi
+1505567779617	addons.xpi	DEBUG	Calling bootstrap method startup on shield-recipe-client@mozilla.org version 55.1
+1505567779632	addons.xpi	DEBUG	Registering manifest for /usr/lib/firefox/browser/features/webcompat@mozilla.org.xpi
+1505567779632	addons.xpi	DEBUG	Calling bootstrap method startup on webcompat@mozilla.org version 1.1
+1505567779641	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+1505567779642	addons.manager	DEBUG	Provider finished startup: XPIProvider
+1505567779642	addons.manager	DEBUG	Starting provider: LightweightThemeManager
+1505567779642	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+1505567779642	addons.manager	DEBUG	Provider finished startup: LightweightThemeManager
+1505567779643	addons.manager	DEBUG	Starting provider: GMPProvider
+1505567779649	addons.manager	DEBUG	Registering shutdown blocker for GMPProvider
+1505567779649	addons.manager	DEBUG	Provider finished startup: GMPProvider
+1505567779649	addons.manager	DEBUG	Starting provider: PluginProvider
+1505567779650	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+1505567779650	addons.manager	DEBUG	Provider finished startup: PluginProvider
+1505567779651	addons.manager	DEBUG	Completed startup sequence
+1505567780019	Marionette	INFO	Enabled via --marionette
+1505567780845	addons.manager	DEBUG	Starting provider: PreviousExperimentProvider
+1505567780846	addons.manager	DEBUG	Registering shutdown blocker for PreviousExperimentProvider
+1505567780846	addons.manager	DEBUG	Provider finished startup: PreviousExperimentProvider
+1505567781083	DeferredSave.extensions.json	DEBUG	Write succeeded
+1505567781083	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 21
+1505567781084	DeferredSave.extensions.json	DEBUG	Starting timer
+1505567781141	DeferredSave.extensions.json	DEBUG	Starting write
+1505567781198	DeferredSave.extensions.json	DEBUG	Write succeeded
+1505567783479	addons.manager	DEBUG	Starting provider: <unnamed-provider>
+1505567783479	addons.manager	DEBUG	Registering shutdown blocker for <unnamed-provider>
+1505567783480	addons.manager	DEBUG	Provider finished startup: <unnamed-provider>
+1505567783486	addons.xpi	INFO	Mapping firefox@getpocket.com to /usr/lib/firefox/browser/features/firefox@getpocket.com.xpi
+1505567783488	addons.xpi	INFO	Mapping aushelper@mozilla.org to /usr/lib/firefox/browser/features/aushelper@mozilla.org.xpi
+1505567783489	addons.xpi	INFO	Mapping followonsearch@mozilla.com to /usr/lib/firefox/browser/features/followonsearch@mozilla.com.xpi
+1505567783489	addons.xpi	INFO	Mapping clicktoplay-rollout@mozilla.org to /usr/lib/firefox/browser/features/clicktoplay-rollout@mozilla.org.xpi
+1505567783489	addons.xpi	INFO	Mapping webcompat@mozilla.org to /usr/lib/firefox/browser/features/webcompat@mozilla.org.xpi
+1505567783489	addons.xpi	INFO	Mapping shield-recipe-client@mozilla.org to /usr/lib/firefox/browser/features/shield-recipe-client@mozilla.org.xpi
+1505567783489	addons.xpi	INFO	Mapping screenshots@mozilla.org to /usr/lib/firefox/browser/features/screenshots@mozilla.org.xpi
+1505567783489	addons.xpi	INFO	Mapping e10srollout@mozilla.org to /usr/lib/firefox/browser/features/e10srollout@mozilla.org.xpi
+1505567783490	addons.xpi	DEBUG	Existing add-on firefox@getpocket.com in app-system-defaults
+1505567783491	addons.xpi	DEBUG	Existing add-on aushelper@mozilla.org in app-system-defaults
+1505567783491	addons.xpi	DEBUG	Existing add-on followonsearch@mozilla.com in app-system-defaults
+1505567783491	addons.xpi	DEBUG	Existing add-on clicktoplay-rollout@mozilla.org in app-system-defaults
+1505567783492	addons.xpi	DEBUG	Existing add-on webcompat@mozilla.org in app-system-defaults
+1505567783492	addons.xpi	DEBUG	Existing add-on shield-recipe-client@mozilla.org in app-system-defaults
+1505567783493	addons.xpi	DEBUG	Existing add-on screenshots@mozilla.org in app-system-defaults
+1505567783493	addons.xpi	DEBUG	Existing add-on e10srollout@mozilla.org in app-system-defaults
+1505567783493	addons.xpi	INFO	Mapping langpack-en-GB@firefox.mozilla.org to /usr/lib/firefox/browser/extensions/langpack-en-GB@firefox.mozilla.org.xpi
+1505567783494	addons.xpi	INFO	Mapping langpack-pt-BR@firefox.mozilla.org to /usr/lib/firefox/browser/extensions/langpack-pt-BR@firefox.mozilla.org.xpi
+1505567783494	addons.xpi	INFO	Mapping langpack-en-ZA@firefox.mozilla.org to /usr/lib/firefox/browser/extensions/langpack-en-ZA@firefox.mozilla.org.xpi
+1505567783494	addons.xpi	INFO	Mapping langpack-pt-PT@firefox.mozilla.org to /usr/lib/firefox/browser/extensions/langpack-pt-PT@firefox.mozilla.org.xpi
+1505567783494	addons.xpi	INFO	Mapping {972ce4c6-7e08-4474-a285-3208198ce6fd} to /usr/lib/firefox/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}.xpi
+1505567783494	addons.xpi	DEBUG	Existing add-on langpack-en-GB@firefox.mozilla.org in app-global
+1505567783495	addons.xpi	DEBUG	Existing add-on langpack-pt-BR@firefox.mozilla.org in app-global
+1505567783495	addons.xpi	DEBUG	Existing add-on langpack-en-ZA@firefox.mozilla.org in app-global
+1505567783495	addons.xpi	DEBUG	Existing add-on langpack-pt-PT@firefox.mozilla.org in app-global
+1505567783496	addons.xpi	DEBUG	Existing add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} in app-global
+1505567783496	addons.xpi	DEBUG	getInstallState changed: false, state: {}
+1505567784757	addons.productaddons	INFO	sending request to: https://aus5.mozilla.org/update/3/GMP/55.0.2/20170816210634/Linux_x86_64-gcc3/null/release-cck- ubuntu/Linux%204.4.0-31-generic%20(GTK%203.18.9%2Clibpulse%208.0.0)/canonical/1.0/update.xml
+1505567785023	Marionette	INFO	Listening on port 34573
+1505567785116	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1505567785288	Marionette	DEBUG	loaded listener.js
+1505567785819	addons.productaddons	INFO	Completed downloading document
+1505567786142	addons.productaddons	INFO	downloadXHR File download. status=200
+1505567786154	addons.productaddons	INFO	Downloaded file will be saved to /tmp/tmpaddon
+1505567788838	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1505567789541	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1505567789543	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1505567793166	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://g1.globo.com/e-ou-nao-e/"
+1505567793890	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://g1.globo.com/e-ou-nao-e/"
+1505567793922	Marionette	DEBUG	Received DOM event "pageshow" for "http://g1.globo.com/e-ou-nao-e/"
+1505567793923	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://g1.globo.com/e-ou-nao-e/"
+1505567793943	Marionette	DEBUG	Received DOM event "pageshow" for "http://g1.globo.com/e-ou-nao-e/"
+1505567793944	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://g1.globo.com/e-ou-nao-e/"
+1505567793952	Marionette	DEBUG	Received DOM event "pageshow" for "http://g1.globo.com/e-ou-nao-e/"
+1505567793952	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://g1.globo.com/e-ou-nao-e/"
+1505567793967	Marionette	DEBUG	Received DOM event "pageshow" for "http://g1.globo.com/e-ou-nao-e/"
+1505567794039	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483658"
+1505567794162	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483655"
+1505567794360	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://cdn.krxd.net/partnerjs/xdi/proxy.3d2100fd7107262ecb55ce6847f01fa5.html#!kxcid=J2lZajxx&kxt=http%3A%2F%2Fg1.globo.com&kxcl=cdn&kxp="
+1505567794440	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://g1.globo.com/e-ou-nao-e/"
+1505567794464	Marionette	DEBUG	Received DOM event "pageshow" for "http://g1.globo.com/e-ou-nao-e/"
+1505567794694	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://g1.globo.com/e-ou-nao-e/"
+1505567794698	Marionette	DEBUG	Received DOM event "pageshow" for "http://g1.globo.com/e-ou-nao-e/"
+1505567794908	Marionette	DEBUG	Received DOM event "pageshow" for "http://cdn.krxd.net/partnerjs/xdi/proxy.3d2100fd7107262ecb55ce6847f01fa5.html#!kxcid=J2lZajxx&kxt=http%3A%2F%2Fg1.globo.com&kxcl=cdn&kxp="
+1505567794954	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://tpc.googlesyndication.com/safeframe/1-0-10/html/container.html"
+1505567794975	Marionette	DEBUG	Received DOM event "pageshow" for "http://tpc.googlesyndication.com/safeframe/1-0-10/html/container.html"
+1505567795130	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://g1.globo.com/e-ou-nao-e/"
+1505567795134	Marionette	DEBUG	Received DOM event "pageshow" for "http://g1.globo.com/e-ou-nao-e/"
+1505567795276	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483676"
+1505567795735	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://tpc.googlesyndication.com/safeframe/1-0-10/html/container.html"
+1505567795813	Marionette	DEBUG	Received DOM event "pageshow" for "http://tpc.googlesyndication.com/safeframe/1-0-10/html/container.html"
+1505567795824	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://g1.globo.com/e-ou-nao-e/"
+1505567795973	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://tap2-cdn.rubiconproject.com/partner/scripts/rubicon/emily.html?pc=13764/64720&geo=sa&co=br"
+1505567796118	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://tpc.googlesyndication.com/safeframe/1-0-10/html/container.html"
+1505567796247	Marionette	DEBUG	Received DOM event "pageshow" for "http://tpc.googlesyndication.com/safeframe/1-0-10/html/container.html"
+JavaScript warning: http://ajax.googleapis.com/ajax/libs/jquery/1.10.0/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1505567796609	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://akhtm.nspmotion.com/files/142/4166/27174/creatives/323771/781769/index.html?clickTAG=https%253A%252F%252Fadclick.g.doubleclick.net%252Fpcs%252Fclick%253Fxai%253DAKAOjsvR1q4O22_PSSr4wyIT4iMCvkBauzXDkkzmqKQeRpuOpiDDXc6yE8O5Uj_9VTABrYS_TpQCSo7FRUYhrOKgzkhDjnpUI5dF5kUyokpuA0oIBea-PLtOrl9DT-hmdDJIxXFeS9L2J1-EQfOQoUwv0fxPo20xLCuzpiM4LPn68iArYWqzHg_S7EjQUEx3kNnZkQ53AHbdVdOdtZ1aODAZ2WOMUgUmfomUJNdDSjDb3VHG2w%2526sig%253DCg0ArKJSzCcO-4-tOvFlEAE%2526urlfix%253D1%2526adurl%253Dhttp%253A%252F%252Frockinrio.com%252Frio%252Fpt-BR%252Finformacoes%2523como-chegar-aba-2%253Futm_source%253Dglobocom%2526utm_medium%253Dretangulo%2526utm_term%253Dg1internas%2526utm_content%253Dtransporte%2526utm_campaign%253Dtransporteregular&URLClickCount=http%253A%252F%252Fia.nspmotion.com%252Fclick%252F%253Fcap%253D457157%2526c%253D12727%2526r%253D%255Brnd%255D&clicktracking=&sessionId=session_id_15320901&assets=&cookieCount=-1&eventValues=undefined&browser=FF&browserVer=55&advKeys=undefined&URLAdvKey=http%253A%252F%252Fia.nspmotion.com%252FadvKey%252F%253Fadv%253D4166%2526key%253D%255Bkey%255D&panelGroup=banner%253A_default&panelGroupList=&width=300&height=250&instanceCount=0"
+1505567796633	Marionette	DEBUG	Received DOM event "pageshow" for "https://tap2-cdn.rubiconproject.com/partner/scripts/rubicon/emily.html?pc=13764/64720&geo=sa&co=br"
+1505567796652	Marionette	DEBUG	Received DOM event "pageshow" for "http://g1.globo.com/e-ou-nao-e/"
+1505567796721	Marionette	DEBUG	Received DOM event "pageshow" for "http://akhtm.nspmotion.com/files/142/4166/27174/creatives/323771/781769/index.html?clickTAG=https%253A%252F%252Fadclick.g.doubleclick.net%252Fpcs%252Fclick%253Fxai%253DAKAOjsvR1q4O22_PSSr4wyIT4iMCvkBauzXDkkzmqKQeRpuOpiDDXc6yE8O5Uj_9VTABrYS_TpQCSo7FRUYhrOKgzkhDjnpUI5dF5kUyokpuA0oIBea-PLtOrl9DT-hmdDJIxXFeS9L2J1-EQfOQoUwv0fxPo20xLCuzpiM4LPn68iArYWqzHg_S7EjQUEx3kNnZkQ53AHbdVdOdtZ1aODAZ2WOMUgUmfomUJNdDSjDb3VHG2w%2526sig%253DCg0ArKJSzCcO-4-tOvFlEAE%2526urlfix%253D1%2526adurl%253Dhttp%253A%252F%252Frockinrio.com%252Frio%252Fpt-BR%252Finformacoes%2523como-chegar-aba-2%253Futm_source%253Dglobocom%2526utm_medium%253Dretangulo%2526utm_term%253Dg1internas%2526utm_content%253Dtransporte%2526utm_campaign%253Dtransporteregular&URLClickCount=http%253A%252F%252Fia.nspmotion.com%252Fclick%252F%253Fcap%253D457157%2526c%253D12727%2526r%253D%255Brnd%255D&clicktracking=&sessionId=session_id_15320901&assets=&cookieCount=-1&eventValues=undefined&browser=FF&browserVer=55&advKeys=undefined&URLAdvKey=http%253A%252F%252Fia.nspmotion.com%252FadvKey%252F%253Fadv%253D4166%2526key%253D%255Bkey%255D&panelGroup=banner%253A_default&panelGroupList=&width=300&height=250&instanceCount=0"
+1505567796735	Marionette	DEBUG	Received DOM event "pageshow" for "http://tpc.googlesyndication.com/safeframe/1-0-10/html/container.html"
+1505567885460	Marionette	DEBUG	Received DOM event "pageshow" for "http://g1.globo.com/e-ou-nao-e/"
+1505567886007	Marionette	DEBUG	Received DOM event "pagehide" for "http://g1.globo.com/e-ou-nao-e/"
+1505567886108	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483669"
+1505567886109	Marionette	DEBUG	Received DOM event "pagehide" for "http://g1.globo.com/e-ou-nao-e/"
+1505567886231	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567886665	Marionette	DEBUG	Received DOM event "pagehide" for "http://g1.globo.com/e-ou-nao-e/"
+1505567886674	Marionette	DEBUG	Received DOM event "pagehide" for "http://g1.globo.com/e-ou-nao-e/"
+1505567886677	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567887050	Marionette	DEBUG	Received DOM event "pagehide" for "about:srcdoc"
+1505567887138	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483691"
+1505567887194	Marionette	DEBUG	Received DOM event "pagehide" for "http://g1.globo.com/e-ou-nao-e/"
+1505567887210	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567887655	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567887961	Marionette	DEBUG	Received DOM event "pagehide" for "http://g1.globo.com/e-ou-nao-e/"
+1505567888004	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567888447	Marionette	DEBUG	Received DOM event "pagehide" for "about:srcdoc"
+1505567888531	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483698"
+1505567888596	Marionette	DEBUG	Received DOM event "pagehide" for "http://g1.globo.com/e-ou-nao-e/"
+1505567888609	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567888964	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567889443	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567889968	Marionette	DEBUG	Received DOM event "pagehide" for "http://g1.globo.com/e-ou-nao-e/"
+1505567890074	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567890250	Marionette	DEBUG	Received DOM event "pagehide" for "http://g1.globo.com/e-ou-nao-e/"
+JavaScript error: http://vitrines.globo.com/vitrine/vitrine.min.js, line 2: SyntaxError: An invalid or illegal string was specified
+1505567890328	Marionette	DEBUG	Received DOM event "pagehide" for "http://vitrines.globo.com/vitrine/shop/5/g1/home.html?&url=null&ss=g1/home&sps=5&sts=5&color_text=c4170c"
+1505567890438	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567890959	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567891464	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567891819	Marionette	DEBUG	Received DOM event "pagehide" for "http://g1.globo.com/e-ou-nao-e/"
+1505567891852	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567892146	Marionette	DEBUG	Received DOM event "pagehide" for "about:srcdoc"
+1505567892237	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483715"
+1505567892272	Marionette	DEBUG	Received DOM event "pagehide" for "http://g1.globo.com/e-ou-nao-e/"
+1505567892283	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567892862	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567893489	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567893997	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567894346	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567894663	Marionette	DEBUG	Received DOM event "pagehide" for "http://g1.globo.com/e-ou-nao-e/"
+1505567894826	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567895162	Marionette	DEBUG	Received DOM event "pagehide" for "http://g1.globo.com/e-ou-nao-e/"
+1505567895348	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567895726	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567896210	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567896648	Marionette	DEBUG	Received DOM event "pagehide" for "http://g1.globo.com/e-ou-nao-e/"
+1505567896720	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567897001	Marionette	DEBUG	Received DOM event "pagehide" for "about:srcdoc"
+1505567897080	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483735"
+1505567897148	Marionette	DEBUG	Received DOM event "pagehide" for "http://g1.globo.com/e-ou-nao-e/"
+1505567897162	Marionette	DEBUG	Received DOM event "pagehide" for "about:srcdoc"
+1505567897242	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567897646	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567898314	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567898593	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567898750	Marionette	DEBUG	Received DOM event "pagehide" for "http://g1.globo.com/e-ou-nao-e/"
+1505567898899	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567899393	Marionette	DEBUG	Received DOM event "pagehide" for "http://g1.globo.com/e-ou-nao-e/"
+1505567899793	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567900429	addons.manager	INFO	Skipping background update check
+1505567903005	Marionette	DEBUG	Received DOM event "beforeunload" for "http://g1.globo.com/e-ou-nao-e/"
+1505567903237	Marionette	DEBUG	Received DOM event "pagehide" for "http://g1.globo.com/e-ou-nao-e/"
+1505567903284	Marionette	DEBUG	Received DOM event "unload" for "http://g1.globo.com/e-ou-nao-e/"
+1505567903350	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483684"
+1505567904057	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483654"
+1505567904058	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483687"
+1505567904059	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483657"
+1505567904059	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483665"
+1505567904060	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483678"
+1505567904061	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483697"
+1505567904061	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483694"
+1505567904062	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483701"
+1505567904062	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483709"
+1505567904063	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483717"
+1505567904063	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483732"
+1505567904064	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483739"
+1505567904064	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483742"
+1505567904065	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483747"
+1505567904065	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483752"
+1505567904066	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483760"
+1505567904066	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483757"
+1505567904067	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483667"
+1505567904067	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483681"
+1505567904067	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483656"
+1505567904068	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483722"
+1505567904068	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483728"
+1505567904069	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483720"
+1505567904069	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483724"
+1505567904069	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483726"
+1505567904070	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483712"
+1505567904070	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483707"
+1505567904071	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483689"
+1505567904071	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483674"
+1505567904073	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483653"
+1505567905272	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://g1.globo.com/e-ou-nao-e/"
+1505567906287	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://g1.globo.com/e-ou-nao-e/"
+1505567906292	Marionette	DEBUG	Received DOM event "pageshow" for "http://g1.globo.com/e-ou-nao-e/"
+1505567906385	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://g1.globo.com/e-ou-nao-e/"
+1505567906390	Marionette	DEBUG	Received DOM event "pageshow" for "http://g1.globo.com/e-ou-nao-e/"
+1505567906391	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://g1.globo.com/e-ou-nao-e/"
+1505567906393	Marionette	DEBUG	Received DOM event "pageshow" for "http://g1.globo.com/e-ou-nao-e/"
+1505567906394	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://g1.globo.com/e-ou-nao-e/"
+1505567906396	Marionette	DEBUG	Received DOM event "pageshow" for "http://g1.globo.com/e-ou-nao-e/"
+1505567906396	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://g1.globo.com/e-ou-nao-e/"
+1505567906399	Marionette	DEBUG	Received DOM event "pageshow" for "http://g1.globo.com/e-ou-nao-e/"
+1505567906754	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://g1.globo.com/e-ou-nao-e/"
+1505567906755	Marionette	DEBUG	Received DOM event "pageshow" for "http://g1.globo.com/e-ou-nao-e/"
+1505567907004	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://cdn.krxd.net/partnerjs/xdi/proxy.3d2100fd7107262ecb55ce6847f01fa5.html#!kxcid=J2lZajxx&kxt=http%3A%2F%2Fg1.globo.com&kxcl=cdn&kxp="
+1505567907036	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483766"
+1505567907043	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483769"
+1505567907156	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://g1.globo.com/e-ou-nao-e/"
+1505567907159	Marionette	DEBUG	Received DOM event "pageshow" for "http://g1.globo.com/e-ou-nao-e/"
+1505567907380	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483778"
+1505567907401	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://g1.globo.com/e-ou-nao-e/"
+1505567907404	Marionette	DEBUG	Received DOM event "pageshow" for "http://g1.globo.com/e-ou-nao-e/"
+1505567907575	Marionette	DEBUG	Received DOM event "pageshow" for "http://cdn.krxd.net/partnerjs/xdi/proxy.3d2100fd7107262ecb55ce6847f01fa5.html#!kxcid=J2lZajxx&kxt=http%3A%2F%2Fg1.globo.com&kxcl=cdn&kxp="
+1505567907656	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://tpc.googlesyndication.com/safeframe/1-0-10/html/container.html"
+1505567907766	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://tpc.googlesyndication.com/safeframe/1-0-10/html/container.html"
+1505567907807	Marionette	DEBUG	Received DOM event "pageshow" for "http://tpc.googlesyndication.com/safeframe/1-0-10/html/container.html"
+1505567908120	Marionette	DEBUG	Received DOM event "pageshow" for "http://tpc.googlesyndication.com/safeframe/1-0-10/html/container.html"
+1505567908188	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://tpc.googlesyndication.com/safeframe/1-0-10/html/container.html"
+1505567908239	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://g1.globo.com/e-ou-nao-e/"
+1505567908316	Marionette	DEBUG	Received DOM event "pageshow" for "http://tpc.googlesyndication.com/safeframe/1-0-10/html/container.html"
+1505567908399	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://tap2-cdn.rubiconproject.com/partner/scripts/rubicon/emily.html?pc=13764/64720&geo=sa&co=br"
+1505567909067	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://ad.turn.com/server/pixelssl.htm?fpid=6"
+1505567912796	Marionette	DEBUG	Received DOM event "pageshow" for "https://ad.turn.com/server/pixelssl.htm?fpid=6"
+1505567927372	Marionette	DEBUG	Received DOM event "pageshow" for "https://tap2-cdn.rubiconproject.com/partner/scripts/rubicon/emily.html?pc=13764/64720&geo=sa&co=br"
+1505567927387	Marionette	DEBUG	Received DOM event "pageshow" for "http://g1.globo.com/e-ou-nao-e/"
+1505567927403	Marionette	DEBUG	Received DOM event "pageshow" for "http://g1.globo.com/e-ou-nao-e/"
+1505567927816	Marionette	DEBUG	Received DOM event "pagehide" for "http://g1.globo.com/e-ou-nao-e/"
+1505567927879	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483764"
+1505567927882	Marionette	DEBUG	Received DOM event "pagehide" for "http://g1.globo.com/e-ou-nao-e/"
+1505567928080	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567928310	Marionette	DEBUG	Received DOM event "pagehide" for "http://g1.globo.com/e-ou-nao-e/"
+1505567928446	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567928839	Marionette	DEBUG	Received DOM event "pagehide" for "http://g1.globo.com/e-ou-nao-e/"
+1505567929008	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567929194	Marionette	DEBUG	Received DOM event "pagehide" for "http://g1.globo.com/e-ou-nao-e/"
+1505567929413	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: http://vitrines.globo.com/vitrine/vitrine.min.js, line 2: SyntaxError: An invalid or illegal string was specified
+1505567929687	Marionette	DEBUG	Received DOM event "pagehide" for "http://vitrines.globo.com/vitrine/shop/5/g1/home.html?&url=null&ss=g1/home&sps=5&sts=5&color_text=c4170c"
+1505567929832	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567930326	Marionette	DEBUG	Received DOM event "pagehide" for "about:srcdoc"
+1505567930455	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483812"
+1505567930466	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567930862	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567931640	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567932099	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567932608	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567932918	Marionette	DEBUG	Received DOM event "pagehide" for "http://g1.globo.com/e-ou-nao-e/"
+1505567932929	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567933137	Marionette	DEBUG	Received DOM event "pagehide" for "http://g1.globo.com/e-ou-nao-e/"
+1505567933144	Marionette	DEBUG	Received DOM event "pagehide" for "about:srcdoc"
+1505567933199	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483827"
+1505567933223	Marionette	DEBUG	Received DOM event "pagehide" for "http://g1.globo.com/e-ou-nao-e/"
+1505567933276	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567933826	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567934204	Marionette	DEBUG	Received DOM event "pagehide" for "http://g1.globo.com/e-ou-nao-e/"
+1505567934206	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567934642	Marionette	DEBUG	Received DOM event "pagehide" for "http://g1.globo.com/e-ou-nao-e/"
+1505567934647	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567934972	Marionette	DEBUG	Received DOM event "pagehide" for "http://tpc.googlesyndication.com/safeframe/1-0-10/html/container.html"
+1505567935155	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567935514	Marionette	DEBUG	Received DOM event "pagehide" for "http://g1.globo.com/e-ou-nao-e/"
+1505567935515	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567935839	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567936252	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567936570	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567936758	Marionette	DEBUG	Received DOM event "pagehide" for "http://g1.globo.com/e-ou-nao-e/"
+1505567936901	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567937339	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567937764	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567938093	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567938466	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567938873	Marionette	DEBUG	Received DOM event "pagehide" for "http://g1.globo.com/e-ou-nao-e/"
+1505567938875	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567939228	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567939742	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567942802	Marionette	DEBUG	Received DOM event "beforeunload" for "http://g1.globo.com/e-ou-nao-e/"
+1505567943025	Marionette	DEBUG	Received DOM event "pagehide" for "http://g1.globo.com/e-ou-nao-e/"
+1505567943051	Marionette	DEBUG	Received DOM event "unload" for "http://g1.globo.com/e-ou-nao-e/"
+1505567943663	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483765"
+1505567943663	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483797"
+1505567943664	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483768"
+1505567943665	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483782"
+1505567943665	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483788"
+1505567943666	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483804"
+1505567943678	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483814"
+1505567943687	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483834"
+1505567943696	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483831"
+1505567943698	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483829"
+1505567943700	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483835"
+1505567943702	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483838"
+1505567943706	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483841"
+1505567943706	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483843"
+1505567943708	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483845"
+1505567943710	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483847"
+1505567943713	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483780"
+1505567943714	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483794"
+1505567943715	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483792"
+1505567943718	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483767"
+1505567943721	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483816"
+1505567943722	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483819"
+1505567943723	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483821"
+1505567943723	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483823"
+1505567943723	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483825"
+1505567943724	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483809"
+1505567943726	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483807"
+1505567943726	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483799"
+1505567943727	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483787"
+1505567943727	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483763"
+1505567945099	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://g1.globo.com/e-ou-nao-e/"
+1505567946258	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://g1.globo.com/e-ou-nao-e/"
+1505567946265	Marionette	DEBUG	Received DOM event "pageshow" for "http://g1.globo.com/e-ou-nao-e/"
+1505567946326	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483851"
+1505567946328	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://g1.globo.com/e-ou-nao-e/"
+1505567946333	Marionette	DEBUG	Received DOM event "pageshow" for "http://g1.globo.com/e-ou-nao-e/"
+1505567946335	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://g1.globo.com/e-ou-nao-e/"
+1505567946340	Marionette	DEBUG	Received DOM event "pageshow" for "http://g1.globo.com/e-ou-nao-e/"
+1505567946341	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://g1.globo.com/e-ou-nao-e/"
+1505567946343	Marionette	DEBUG	Received DOM event "pageshow" for "http://g1.globo.com/e-ou-nao-e/"
+1505567946344	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483854"
+1505567946498	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://cdn.krxd.net/partnerjs/xdi/proxy.3d2100fd7107262ecb55ce6847f01fa5.html#!kxcid=J2lZajxx&kxt=http%3A%2F%2Fg1.globo.com&kxcl=cdn&kxp="
+1505567946560	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://g1.globo.com/e-ou-nao-e/"
+1505567946564	Marionette	DEBUG	Received DOM event "pageshow" for "http://g1.globo.com/e-ou-nao-e/"
+1505567947011	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://tpc.googlesyndication.com/safeframe/1-0-10/html/container.html"
+1505567947045	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://tpc.googlesyndication.com/safeframe/1-0-10/html/container.html"
+1505567947120	Marionette	DEBUG	Received DOM event "pageshow" for "http://cdn.krxd.net/partnerjs/xdi/proxy.3d2100fd7107262ecb55ce6847f01fa5.html#!kxcid=J2lZajxx&kxt=http%3A%2F%2Fg1.globo.com&kxcl=cdn&kxp="
+1505567947143	Marionette	DEBUG	Received DOM event "pageshow" for "http://tpc.googlesyndication.com/safeframe/1-0-10/html/container.html"
+1505567947157	Marionette	DEBUG	Received DOM event "pageshow" for "http://tpc.googlesyndication.com/safeframe/1-0-10/html/container.html"
+1505567947363	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://g1.globo.com/e-ou-nao-e/"
+1505567947367	Marionette	DEBUG	Received DOM event "pageshow" for "http://g1.globo.com/e-ou-nao-e/"
+1505567947479	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483873"
+1505567947982	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://tpc.googlesyndication.com/safeframe/1-0-10/html/container.html"
+1505567948040	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://g1.globo.com/e-ou-nao-e/"
+1505567948099	Marionette	DEBUG	Received DOM event "pageshow" for "http://tpc.googlesyndication.com/safeframe/1-0-10/html/container.html"
+1505567948899	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://tap2-cdn.rubiconproject.com/partner/scripts/rubicon/emily.html?pc=13764/64720&geo=sa&co=br"
+1505567949861	Marionette	DEBUG	Received DOM event "pageshow" for "https://tap2-cdn.rubiconproject.com/partner/scripts/rubicon/emily.html?pc=13764/64720&geo=sa&co=br"
+1505567949876	Marionette	DEBUG	Received DOM event "pageshow" for "http://g1.globo.com/e-ou-nao-e/"
+1505567950699	Marionette	DEBUG	Received DOM event "pageshow" for "http://g1.globo.com/e-ou-nao-e/"
+1505567951306	Marionette	DEBUG	Received DOM event "pagehide" for "http://g1.globo.com/e-ou-nao-e/"
+1505567951431	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483856"
+1505567951432	Marionette	DEBUG	Received DOM event "pagehide" for "http://g1.globo.com/e-ou-nao-e/"
+1505567951498	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567951832	Marionette	DEBUG	Received DOM event "pagehide" for "http://g1.globo.com/e-ou-nao-e/"
+1505567951939	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567952291	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567952920	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567953369	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: http://vitrines.globo.com/vitrine/vitrine.min.js, line 2: SyntaxError: An invalid or illegal string was specified
+1505567953718	Marionette	DEBUG	Received DOM event "pagehide" for "http://vitrines.globo.com/vitrine/shop/5/g1/home.html?&url=null&ss=g1/home&sps=5&sts=5&color_text=c4170c"
+1505567953868	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567954362	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567954853	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567955226	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567955641	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567956271	Marionette	DEBUG	Received DOM event "pagehide" for "http://g1.globo.com/e-ou-nao-e/"
+1505567956279	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567956470	Marionette	DEBUG	Received DOM event "pagehide" for "http://g1.globo.com/e-ou-nao-e/"
+1505567956703	Marionette	DEBUG	Received DOM event "pagehide" for "http://g1.globo.com/e-ou-nao-e/"
+1505567956707	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567957165	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567957459	Marionette	DEBUG	Received DOM event "pagehide" for "http://g1.globo.com/e-ou-nao-e/"
+1505567957469	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567957782	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567958153	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567958460	Marionette	DEBUG	Received DOM event "pagehide" for "http://g1.globo.com/e-ou-nao-e/"
+1505567958463	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567958814	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567959196	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567959482	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567959850	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567960280	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567960699	Marionette	DEBUG	Received DOM event "pagehide" for "http://g1.globo.com/e-ou-nao-e/"
+1505567960700	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567961037	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567961464	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567961885	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567962263	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505567963014	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1505568140473	DeferredSave.extensions.json	DEBUG	Save changes
+1505568140475	DeferredSave.extensions.json	DEBUG	Starting timer
+1505568140498	DeferredSave.extensions.json	DEBUG	Starting write
+1505568140505	DeferredSave.extensions.json	DEBUG	Write succeeded
+1505568170035	addons.manager	INFO	Skipping background update check
+1505568410215	DeferredSave.extensions.json	DEBUG	Save changes
+1505568410217	DeferredSave.extensions.json	DEBUG	Starting timer
+1505568410263	DeferredSave.extensions.json	DEBUG	Starting write
+1505568410303	DeferredSave.extensions.json	DEBUG	Write succeeded

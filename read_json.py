@@ -115,11 +115,12 @@ def distanceBetweenDocs(newsInBagOfWords,nameFile):
 	sizeNews = len(newsInBagOfWords)
 	for i in range(1,sizeNews+1):
 		for j in range(i,sizeNews+1):
-			p = newsInBagOfWords[i]
-			q = newsInBagOfWords[j]
-			distance = euclideanDistance2(p,q)
-			print i,",",j," - ",distance
-			file.write(str(i)+","+str(j)+" = "+str(distance)+"\n")
+			if i!=j 
+				p = newsInBagOfWords[i]
+				q = newsInBagOfWords[j]
+				distance = euclideanDistance2(p,q)
+				print i,",",j," - ",distance
+				file.write(str(i)+","+str(j)+" = "+str(distance)+"\n")
 	file.close()
 
 

@@ -14,7 +14,7 @@ from scrapy.http import TextResponse
 class G1newsSpider(scrapy.Spider):
 	name = 'g1news'
 	allowed_domains = ['http://g1.globo.com/']
-	start_urls = ['http://g1.globo.com/','http://g1.globo.com/economia/agronegocios/','http://g1.globo.com/ciencia-e-saude/','http://g1.globo.com/economia/concursos-e-emprego/','http://g1.globo.com/economia/','http://g1.globo.com/educacao/','http://g1.globo.com/mundo/' ]
+	start_urls = ['http://g1.globo.com/e-ou-nao-e/', 'http://g1.globo.com/economia/concursos-e-emprego/','http://g1.globo.com/natureza/']
 
 	def __init__(self):
 		ff_profile = webdriver.FirefoxProfile()
