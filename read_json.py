@@ -178,6 +178,8 @@ def multMatrix(X,Y):
 	else:
 		print "Multiplicação impossível"
 
+#VERIFICAR SE É CORRETO FAZER ISTO
+#calcula a diferença das distâncias euclidianas entre cada par de documentos
 def calculateDistortion(fileData, fileProjected, fileOut):
 	fileData = open(fileData, 'r')
 	fileProjected = open(fileProjected, 'r')
@@ -189,12 +191,16 @@ def calculateDistortion(fileData, fileProjected, fileOut):
 		projectedDistance = float(listProjected[i].split()[2])
 		distortion = 0
 		if realDistance != 0:
-			distortion = (projectedDistance - realDistance) / realDistance
+			distortion = math.fabs(projectedDistance-realDistance) / realDistance
 		fileDistortion.write(listRealData[i].split(",")[0]+ ","+listRealData[i].split(",")[1]+" = "+ str(distortion))
 
 	fileData.close()
 	fileProjected.close()
 	fileDistortion.close()
+
+def distortionByLemmaJL(dim, prob, size):
+	e = math.sqrt(6*math.log10(2*size/prob)/dim)
+	return e
 
 def convertUnicodeToString(token):
 	token = normalize('NFKD', token).encode('ascii','ignore')
@@ -264,7 +270,7 @@ def procedureQuestion7(vocabulary,newsInBagOfWords):
 		timeDistanceBetweenDocsGaussian = time.time()-begin
 
 def removeEspecialChar(token):
-	char_esp = "?()!:;.,'\""
+	char_esp = "!#%&()*+-/[]\^_{}?:;`><123567890'.,&='\""
 	formatted_token=""
 	for char in token:
 		if char not in char_esp:
@@ -275,19 +281,19 @@ def removeEspecialChar(token):
 if __name__ == "__main__":
 	#Questao 2
 
-	vocabulario = getVocabulario()
-	print "Tamanho vocabulário ",len(vocabulario)
+	# vocabulario = getVocabulario()
+	# print "Tamanho vocabulário ",len(vocabulario)
 
-	#Questão 3
-	cleanVocabulario = clearVocabulario(vocabulario)
-	print "Tamanho vocabulário limpo ",len(cleanVocabulario)
+	# #Questão 3
+	# cleanVocabulario = clearVocabulario(vocabulario)
+	# print "Tamanho vocabulário limpo ",len(cleanVocabulario)
 
-	# #Questão 4
-	# #frequencyTokensInDataset()
-	# #sizeDocumentDistribution()
+	# # #Questão 4
+	# # #frequencyTokensInDataset()
+	# # #sizeDocumentDistribution()
 
-	#Questão 5
-	newsInBagOfWords,tokenID = makeBagOfWords(cleanVocabulario)
+	# #Questão 5
+	# newsInBagOfWords,tokenID = makeBagOfWords(cleanVocabulario)
 
 	# #Questão 6
 	# # inicio = time.time()
@@ -297,7 +303,7 @@ if __name__ == "__main__":
 
 	# #Questão 7
 	# print buildGaussianMatrix(10,2)
-	procedureQuestion7(cleanVocabulario, newsInBagOfWords)
+	# procedureQuestion7(cleanVocabulario, newsInBagOfWords)
 	# a = [[0 for x in range(3)] for y in range(2)]
 	# b = [[0 for x in range(2)] for y in range(3)]
 
@@ -305,6 +311,7 @@ if __name__ == "__main__":
 	# 	for j in range(3):
 	# 		a[i][j] = random.randint(1,4)
 	# 		b[j][i] = random.randint(1,4)
+	print distortionByLemmaJL(2000,0.001,3000)
 
 	# print a
 	# print b
