@@ -177,7 +177,7 @@ def multMatrix(X,Y):
 
 		return result
 	else:
-		print "Multiplicação impossível"
+		print ("Multiplicação impossível")
 
 #VERIFICAR SE É CORRETO FAZER ISTO
 #calcula a diferença das distâncias euclidianas entre cada par de documentos
@@ -252,7 +252,7 @@ def procedureQuestion7(vocabulary,newsInBagOfWords):
 		fileTimeCalcDistanceGaussian = open("Dimensao"+str(n)+"/fileTimeCalcDistanceGaussian.txt","w")
 
 		for i in range(1,3):
-			print "n: ",n," it: ", i
+			print ("n: ",n," it: ", i)
 			#Step 1
 			begin = time.time()
 			achiloptasMatrix = buildAchiloptasMatrix(d,n)
@@ -317,11 +317,11 @@ if __name__ == "__main__":
 	#Questao 2
 
 	vocabulario = getVocabulario()
-	print "Tamanho vocabulário ",len(vocabulario)
+	print ("Tamanho vocabulário ",len(vocabulario))
 
 	# #Questão 3
 	cleanVocabulario = clearVocabulario(vocabulario)
-	print "Tamanho vocabulário limpo ",len(cleanVocabulario)
+	print ("Tamanho vocabulário limpo ",len(cleanVocabulario))
 
 	# # #Questão 4
 	# # #frequencyTokensInDataset()
@@ -334,7 +334,7 @@ if __name__ == "__main__":
 	# # inicio = time.time()
 	# # distanceBetweenDocs(newsInBagOfWords,"distance_out.txt")
 	# # fim = time.time()
-	# # print "Tempo de execução para calcular distancias\n ",fim-inicio
+	# # print ("Tempo de execução para calcular distancias\n ",fim-inicio)
 
 	# #Questão 7
 	
